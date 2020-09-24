@@ -1,0 +1,470 @@
+from enum import Enum
+import pandas as pd
+import numpy as np
+import math
+import subprocess as sp
+import matplotlib.pyplot as plt
+from IPython.utils.tests.test_wildcard import y
+
+filename = 'dataset.csv'
+superDistance = 'manhattan'
+superKernel = 'triweight'
+resultForFName = './resultForF.txt'
+inputForFName = './inputForF.txt'
+uniqClassesAmount = 3
+
+
+class Data:
+    def __init__(self, signs, category):
+        self.signs = signs
+        self.category = category
+
+
+def copyData(data):
+    return Data(np.copy(data.signs), data.category)
+
+
+def printData(dates):
+    for el in dates:
+        print(el.signs, '\tclass = ' + el.category.__str__())
+
+
+def readAsData(dataset):
+    newList = []
+    for row in dataset.values:
+        newList.append(Data(row[:-1], int(row[-1] - 1)))
+    return newList
+
+
+def minmax(dataset):
+    minmax = list()
+    for i in range(len(dataset[0]) - 1):
+        value_min = dataset[:, i].min()
+        value_max = dataset[:, i].max()
+        minmax.append([value_min, value_max])
+    return minmax
+
+
+def normalize(dates, minMaxList):
+    for el in dates:
+        for i in range(len(el.signs)):
+            el.signs[i] = (el.signs[i] - minMaxList[i][0]) / (minMaxList[i][1] - minMaxList[i][0])
+
+
+class Distance(Enum):
+    MANHATTAN = 'manhattan'
+    EUCLIDEAN = 'euclidean'
+    CHEBYSHEV = 'chebyshev'
+
+
+class Kernel(Enum):
+    UNIFORM = 'uniform'
+    TRIANGULAR = 'triangular'
+    EPANECHNIKOV = 'epanechnikov'
+    QUARTIC = 'quartic'
+    TRIWEIGHT = 'triweight'
+    TRICUBE = 'tricube'
+    GAUSSIAN = 'gaussian'
+    COSINE = 'cosine'
+    LOGISTIC = 'logistic'
+    SIGMOID = 'sigmoid'
+
+
+class Window(Enum):
+    FIXED = 'fixed'
+    VARIABLE = 'variable'
+
+
+def calculateDistance(dist, v1, v2):
+    if dist == Distance.MANHATTAN:
+        result = 0
+        for (x1, x2) in zip(v1, v2):
+            result += abs(x2 - x1)
+        return result
+    elif dist == Distance.EUCLIDEAN:
+        result = 0
+        for (x1, x2) in zip(v1, v2):
+            result += (x2 - x1) ** 2
+        return math.sqrt(result)
+    elif dist == Distance.CHEBYSHEV:
+        result = 0
+        for (x1, x2) in zip(v1, v2):
+            result = max(result, abs(x2 - x1))
+        return result
+
+
+def calculateKernel(kernel, u):
+    if kernel == Kernel.UNIFORM:
+        if u < 1:
+            return 1 / 2
+        else:
+            return 0
+    elif kernel == Kernel.TRIANGULAR:
+        if u < 1:
+            return 1 - u
+        else:
+            return 0
+    elif kernel == Kernel.EPANECHNIKOV:
+        if u < 1:
+            return (3 / 4) * (1 - (u ** 2))
+        else:
+            return 0
+    elif kernel == Kernel.QUARTIC:
+        if u < 1:
+            return (15 / 16) * ((1 - (u ** 2)) ** 2)
+        else:
+            return 0
+    elif kernel == Kernel.TRIWEIGHT:
+        if u < 1:
+            return (35 / 32) * ((1 - (u ** 2)) ** 3)
+        else:
+            return 0
+    elif kernel == Kernel.TRICUBE:
+        if u < 1:
+            return (70 / 81) * ((1 - (u ** 3)) ** 3)
+        else:
+            return 0
+    elif kernel == Kernel.GAUSSIAN:
+        return (1 / (math.sqrt(2 * math.pi))) * math.exp((-1 / 2) * (u ** 2))
+    elif kernel == Kernel.COSINE:
+        if u < 1:
+            return (math.pi / 4) * math.cos((math.pi * u) / 2)
+        else:
+            return 0
+    elif kernel == Kernel.LOGISTIC:
+        return 1 / (math.exp(u) + 2 + math.exp(-u))
+    elif kernel == Kernel.SIGMOID:
+        return (2 / math.pi) * (1 / (math.exp(u) + math.exp(-u)))
+
+
+def calculateAverage2(dates, investigated):
+    result = 0
+    newDates = list(filter(lambda _data: _data.signs == investigated, dates))
+    for data in newDates:
+        result += data.category
+    return result / len(newDates)
+
+
+def calculateAverage(dates):
+    result = 0
+    for data in dates:
+        result += data.category
+    return result / len(dates)
+
+
+def knn(investigated, dates, distance, kernel, window, windowsSize):
+    def setDistance(el):
+        el.distance = calculateDistance(distance, el.signs, investigated)
+        return el
+
+    maxDistance = h = windowsSize
+    dates = list(map(setDistance, dates))
+    dates = list(sorted(dates, key=lambda _data: _data.distance))
+
+    if window == Window.VARIABLE:
+        maxDistance = dates[h].distance
+
+    if maxDistance == 0:
+        if len(list(filter(lambda _data: _data.signs == investigated, dates))) != 0:
+            return calculateAverage2(dates, investigated)
+        else:
+            return calculateAverage(dates)
+    else:
+        x = 0
+        y = 0
+        for data in dates:
+            kerVal = calculateKernel(kernel, data.distance / maxDistance)
+            x += data.category * kerVal
+            y += kerVal
+        if y == 0:
+            return calculateAverage(dates)
+        else:
+            return x / y
+
+
+def creteTestCase(dates, n):
+    newFirstList = list()
+    newLastList = list()
+    for el in dates[:n]:
+        newFirstList.append(copyData(el))
+    for el in dates[(n + 1):]:
+        newLastList.append(copyData(el))
+    newTarget = copyData(dates[n])
+
+    return (newFirstList + newLastList, newTarget)
+
+def investigatedCategory(dates, n):
+    return dates[n].category
+
+def creteDates(dates):
+    newList = list()
+    for el in dates:
+        newList.append(copyData(el))
+    return newList
+
+def createTestCaseForOneHot(dates, needClass):
+    newDates = creteDates(dates)
+    for el in newDates:
+        if (el.category == needClass):
+            el.category = 1
+        else:
+            el.category = 0
+    return newDates
+
+
+
+def mathRound(num):
+    return int(num + 0.5)
+
+
+def createEmptyMatrix(n):
+    return [[0 for _ in range(n)] for _ in range(n)]
+
+
+def getMatrixErrorNative(window, dates, dist, kernel, windowH):
+    matrix = createEmptyMatrix(len(dates[0].signs))
+    for i in range(len(dates)):
+        testDates, investigated = creteTestCase(dates, i)
+        res = knn(investigated.signs, testDates, Distance(dist), Kernel(kernel), Window(window), windowH)
+        resultClass = mathRound(res)
+        matrix[investigated.category][resultClass] += 1
+    return matrix
+
+
+
+
+def getMatrixErrorOneHot(window, dates, dist, kernel, windowH):
+    matrix = createEmptyMatrix(len(dates[0].signs))
+    for i in range(len(dates)):
+        bestResult = -1
+        bestClassId = -1
+        for classId in range(uniqClassesAmount):
+            upgradedDates = createTestCaseForOneHot(dates, classId)
+            testDates, investigated = creteTestCase(upgradedDates, i)
+            res = knn(investigated.signs, testDates, Distance(dist), Kernel(kernel), Window(window), windowH)
+            if (bestResult < res):
+                bestResult = res
+                bestClassId = classId
+        resultClass = bestClassId
+        matrix[investigatedCategory(dates, i)][resultClass] += 1
+    return matrix
+
+
+def computeF(matrix):
+    f = open(inputForFName, "a")
+    f.truncate(0)
+    f.write(len(matrix).__str__() + '\n')
+    f.write('\n'.join([' '.join(item.__str__() for item in row) for row in matrix]))
+    f.close()
+    sp.call("./countF.sh")
+    with open(resultForFName) as f:
+        macro = float(f.readline())
+        micro = float(f.readline())
+    return macro, micro
+
+
+def findOptimalWindowSize(window, dates, maxWindowH):
+    x  = []
+    y1  = []
+    y2  = []
+    for i in range(maxWindowH - 1):
+        print('i = ' + i.__str__())
+        matrixError = getMatrixErrorNative(window, dates, Distance(superDistance), Kernel(superKernel), i)
+        macro, micro = computeF(matrixError)
+        x.append(i)
+        y1.append(macro)
+        y2.append(micro)
+
+    return [x, y1, y2]
+
+def findOptimalWindowSizeOneHot(window, dates, maxWindowH):
+    x  = []
+    y1  = []
+    y2  = []
+    for i in range(maxWindowH - 1):
+        print('i = ' + i.__str__())
+        matrixError = getMatrixErrorOneHot(window, dates, Distance(superDistance), Kernel(superKernel), i)
+        macro, micro = computeF(matrixError)
+        x.append(i)
+        y1.append(macro)
+        y2.append(micro)
+
+    return [x, y1, y2]
+
+
+def findOptimalKernelDistance(window, dates, fixWindowH):
+    kernels = ['uniform', 'triangular', 'epanechnikov', 'quartic', 'triweight', 'tricube', 'gaussian', 'cosine', 'logistic', 'sigmoid']
+    distances = ['manhattan', 'euclidean', 'chebyshev']
+    maxScore = 0
+    bestCase = ('=(', "=(")
+    for kernel in kernels:
+        for dist in distances:
+            matrixError = getMatrixErrorNative(window, dates, dist, kernel, fixWindowH)
+            score = np.trace(matrixError) / len(dates)
+            if (score > maxScore):
+                maxScore = score
+                bestCase = kernel, dist
+    print(maxScore)
+    return bestCase
+
+
+def tryFindBestDisKer(dates):
+    maxSizeWindow = len(dates)
+    print('fixed 0.2: ' + findOptimalKernelDistance(Window.FIXED, dates, 0.2).__str__())
+    print('fixed 1: ' + findOptimalKernelDistance(Window.FIXED, dates, 1).__str__())
+    print('fixed 2.5: ' + findOptimalKernelDistance(Window.FIXED, dates, 2.5).__str__())
+    print('fixed 5: ' + findOptimalKernelDistance(Window.FIXED, dates, 5).__str__())
+    print('fixed 10: ' + findOptimalKernelDistance(Window.FIXED, dates, 10).__str__())
+    print('Variable 0: ' + findOptimalKernelDistance(Window.VARIABLE, dates, 0).__str__())
+    print('Variable 10: ' + findOptimalKernelDistance(Window.VARIABLE, dates, 10).__str__())
+    print('Variable //3: ' + findOptimalKernelDistance(Window.VARIABLE, dates, maxSizeWindow // 3).__str__())
+    print('Variable //2: ' + findOptimalKernelDistance(Window.VARIABLE, dates, maxSizeWindow // 2).__str__())
+    print('Variable max: ' + findOptimalKernelDistance(Window.VARIABLE, dates, maxSizeWindow - 2).__str__())
+
+
+if __name__ == '__main__':
+    dataset = pd.read_csv(filename)
+    # dataset = dataset.head(30)  # limit of dataset
+    dates = readAsData(dataset)
+    normalize(dates, minmax(dataset.values))
+    # printData(dates)
+
+    # tryFindBestDisKer(dates)
+    maxSizeWindow = len(dates)
+    (n_x, n_y1, n_y2) = findOptimalWindowSize(Window.VARIABLE, dates, maxSizeWindow)
+    (oh_x, oh_y1, oh_y2) = findOptimalWindowSizeOneHot(Window.VARIABLE, dates, maxSizeWindow)
+    # plt.plot(x, y1)
+    # plt.xlabel('Variable')
+    # plt.ylabel('macro')
+    # plt.show()
+    # plt.savefig('Variable-Macro-Native.png')
+
+    #macro
+    fig, axs = plt.subplots(2, 2)
+    axs[0, 0].plot(n_x, n_y1)
+    axs[0, 0].set_title("main Native Variable")
+    axs[1, 0].plot(oh_x, oh_y1)
+    axs[1, 0].set_title("shares x with main One Hot Variable")
+    axs[1, 0].sharex(axs[0, 0])
+    axs[0, 1].plot(n_x, n_y1)
+    axs[0, 1].set_title("unrelated Native Fixed")
+    axs[1, 1].plot(oh_x, oh_y1)
+    axs[1, 1].set_title("also unrelated One Hot Fixed")
+    fig.tight_layout()
+    plt.show()
+    plt.savefig('test-Variable-Macro-Native.png')
+
+    # plt.plot(x, y2)
+    # plt.ylabel('micro')
+    # plt.show()
+    # findOptimalWindowSize(Window.FIXED, dates, 4)
+
+
+#!/bin/zsh
+
+cat inputForF.txt | kotlin -classpath B.jar BKt > resultForF.txt
+
+import Matrix.Companion.macroFb
+import Matrix.Companion.microFb
+import java.util.*
+import kotlin.math.abs
+
+class Matrix(private var matrix: List<List<Int>>) {
+    val size = matrix.size
+    val ALL = matrix.mapIndexed { ind, _ -> P(ind) }.stream().reduce(0) { acc, it -> acc + it }
+
+    companion object {
+        const val EPS = 1E-10
+
+        fun Matrix.Precision(ind: Int): Double {
+            return TP(ind).toDouble().safeDiv((TP(ind).toDouble() + FP(ind).toDouble()))
+        }
+
+        fun Matrix.Recall(ind: Int): Double {
+            return TP(ind).toDouble().safeDiv(TP(ind).toDouble() + FN(ind).toDouble())
+        }
+
+        fun Matrix.PrecisionW(): Double {
+            var res = 0.0
+            for (i in 0 until size) {
+                res += (T(i).toDouble() * C(i).toDouble()).safeDiv(P(i).toDouble())
+            }
+            return res / ALL.toDouble()
+        }
+
+        fun Matrix.RecallW(): Double {
+            var res = 0
+            for (i in 0 until size) {
+                res += T(i)
+            }
+            return res.toDouble() / ALL.toDouble()
+        }
+
+        fun Matrix.FN(ind: Int): Int {
+            var res = 0
+            for (i in 0 until size) {
+                if (ind != i) {
+                    res += matrix[i][ind]
+                }
+            }
+            return res
+        }
+
+        fun Matrix.FP(ind: Int): Int {
+            return matrix[ind].filterIndexed { ind2, _ -> ind != ind2 }.stream().reduce(0) { acc, it -> acc + it }.toInt()
+        }
+
+        fun Matrix.TP(ind: Int): Int = T(ind)
+        fun Matrix.T(ind: Int): Int = matrix[ind][ind]
+        fun Matrix.P(ind: Int): Int = matrix[ind].stream().reduce(0) { acc, it -> acc + it }.toInt()
+        fun Matrix.C(ind: Int): Int {
+            var res = 0
+            for (i in 0 until size) {
+                res += matrix[i][ind]
+            }
+            return res
+        }
+
+        fun Matrix.F(ind: Int): Double {
+            return 2.0 * (Precision(ind) * Recall(ind)).safeDiv((Precision(ind) + Recall(ind)))
+        }
+
+        fun Matrix.microFb(): Double {
+            var res = 0.0
+            for (i in 0 until size) {
+                res += C(i).toDouble() * F(i)
+            }
+            return res / ALL.toDouble()
+        }
+
+        fun Matrix.macroFb(): Double {
+            return 2.0 * (PrecisionW() * RecallW()) / (PrecisionW() + RecallW())
+        }
+
+        fun Double.safeDiv(b: Double): Double {
+            return if (abs(this) < EPS) 0.0 else this / b
+
+        }
+    }
+}
+
+fun generateList(size: Int) = Collections.nCopies(size, 0).toMutableList()
+
+fun main() {
+    val k = readLine()!!.toInt()
+    val tmp = mutableListOf<MutableList<Int>>()
+    for (i in 0 until k) {
+        tmp.add(generateList(k))
+    }
+    var tmpInd = 0
+    repeat(k) {
+        readLine()!!.split(" ").map(Integer::parseInt).forEachIndexed { ind,value ->
+            tmp[tmpInd][ind] = value
+        }
+        tmpInd++
+    }
+    val matrix = Matrix(tmp)
+
+    println(matrix.macroFb())
+    println(matrix.microFb())
+}

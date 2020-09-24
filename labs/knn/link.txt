@@ -1,0 +1,6 @@
+https://www.openml.org/d/1500
+
+compile and run kotlin: https://kotlinlang.org/docs/tutorials/command-line.html
+
+kotlinc B.kt -include-runtime -d B.jar
+kotlin -classpath B.jar BKt

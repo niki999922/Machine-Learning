@@ -1,0 +1,15 @@
+Searching for Native Variable
+best kernel for Fixed Native: 'gaussian'
+best distance for Fixed Native: 'manhattan'
+
+Searching for Native Variable
+best kernel for Variable Native: 'triweight'
+best distance for Variable Native: 'euclidean'
+
+Searching for OneHot Fixed
+best kernel for Fixed OneHot: 'triangular'
+best distance for Fixed OneHot: 'manhattan'
+
+Searching for OneHot Variable
+best kernel for Variable OneHot: 'uniform'
+best distance for Variable OneHot: 'euclidean'
