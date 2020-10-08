@@ -1,0 +1,1962 @@
+
+PROGRESS_P 0.00%
+2020-10-08 02:04:56.610084
+dates: cPol 0.001 alphaPol 1.0 dPol 2 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+Found better accuracy 0.44144144144144143
+
+PROGRESS_P 0.51%
+2020-10-08 02:06:13.979967
+dates: cPol 0.001 alphaPol 1.0 dPol 2 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.44144144144144143
+
+PROGRESS_P 1.02%
+2020-10-08 02:07:38.251359
+dates: cPol 0.001 alphaPol 1.0 dPol 2 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.44144144144144143
+
+PROGRESS_P 1.53%
+2020-10-08 02:09:04.014215
+dates: cPol 0.001 alphaPol 1.0 dPol 2 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.44144144144144143
+
+PROGRESS_P 2.04%
+2020-10-08 02:10:28.274470
+dates: cPol 0.001 alphaPol 1.0 dPol 2 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.44144144144144143
+
+PROGRESS_P 2.55%
+2020-10-08 02:11:52.475904
+dates: cPol 0.001 alphaPol 1.0 dPol 2 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.44144144144144143
+
+PROGRESS_P 3.06%
+2020-10-08 02:13:18.345977
+dates: cPol 0.001 alphaPol 1.0 dPol 2 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.44144144144144143
+
+PROGRESS_P 3.57%
+2020-10-08 02:14:45.696738
+dates: cPol 0.001 alphaPol 1.0 dPol 3 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+Found better accuracy 0.6036036036036037
+
+PROGRESS_P 4.08%
+2020-10-08 02:16:07.025289
+dates: cPol 0.001 alphaPol 1.0 dPol 3 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 4.59%
+2020-10-08 02:17:32.681189
+dates: cPol 0.001 alphaPol 1.0 dPol 3 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 5.10%
+2020-10-08 02:18:49.203436
+dates: cPol 0.001 alphaPol 1.0 dPol 3 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 5.61%
+2020-10-08 02:20:15.627307
+dates: cPol 0.001 alphaPol 1.0 dPol 3 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 6.12%
+2020-10-08 02:21:46.941607
+dates: cPol 0.001 alphaPol 1.0 dPol 3 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 6.63%
+2020-10-08 02:23:13.268940
+dates: cPol 0.001 alphaPol 1.0 dPol 3 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 7.14%
+2020-10-08 02:24:50.610229
+dates: cPol 0.001 alphaPol 1.0 dPol 4 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 7.65%
+2020-10-08 02:26:25.888262
+dates: cPol 0.001 alphaPol 1.0 dPol 4 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 8.16%
+2020-10-08 02:27:52.580066
+dates: cPol 0.001 alphaPol 1.0 dPol 4 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 8.67%
+2020-10-08 02:29:18.011185
+dates: cPol 0.001 alphaPol 1.0 dPol 4 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 9.18%
+2020-10-08 02:30:59.338066
+dates: cPol 0.001 alphaPol 1.0 dPol 4 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 9.69%
+2020-10-08 02:32:26.209944
+dates: cPol 0.001 alphaPol 1.0 dPol 4 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 10.20%
+2020-10-08 02:33:52.413481
+dates: cPol 0.001 alphaPol 1.0 dPol 4 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 10.71%
+2020-10-08 02:35:20.858733
+dates: cPol 0.001 alphaPol 1.0 dPol 5 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 11.22%
+2020-10-08 02:37:00.366739
+dates: cPol 0.001 alphaPol 1.0 dPol 5 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 11.73%
+2020-10-08 02:38:41.245435
+dates: cPol 0.001 alphaPol 1.0 dPol 5 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 12.24%
+2020-10-08 02:40:21.119289
+dates: cPol 0.001 alphaPol 1.0 dPol 5 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 12.76%
+2020-10-08 02:42:05.991882
+dates: cPol 0.001 alphaPol 1.0 dPol 5 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 13.27%
+2020-10-08 02:43:43.600144
+dates: cPol 0.001 alphaPol 1.0 dPol 5 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 13.78%
+2020-10-08 02:45:09.549998
+dates: cPol 0.001 alphaPol 1.0 dPol 5 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 14.29%
+2020-10-08 02:46:44.502394
+dates: cPol 0.01 alphaPol 1.0 dPol 2 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 14.80%
+2020-10-08 02:48:23.495858
+dates: cPol 0.01 alphaPol 1.0 dPol 2 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 15.31%
+2020-10-08 02:50:06.362201
+dates: cPol 0.01 alphaPol 1.0 dPol 2 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 15.82%
+2020-10-08 02:51:51.184351
+dates: cPol 0.01 alphaPol 1.0 dPol 2 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 16.33%
+2020-10-08 02:53:19.830428
+dates: cPol 0.01 alphaPol 1.0 dPol 2 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 16.84%
+2020-10-08 02:54:33.548723
+dates: cPol 0.01 alphaPol 1.0 dPol 2 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 17.35%
+2020-10-08 02:55:49.645010
+dates: cPol 0.01 alphaPol 1.0 dPol 2 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 17.86%
+2020-10-08 02:57:02.015141
+dates: cPol 0.01 alphaPol 1.0 dPol 3 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 18.37%
+2020-10-08 02:58:18.320999
+dates: cPol 0.01 alphaPol 1.0 dPol 3 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 18.88%
+2020-10-08 02:59:38.632764
+dates: cPol 0.01 alphaPol 1.0 dPol 3 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 19.39%
+2020-10-08 03:01:03.239708
+dates: cPol 0.01 alphaPol 1.0 dPol 3 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 19.90%
+2020-10-08 03:02:20.193927
+dates: cPol 0.01 alphaPol 1.0 dPol 3 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 20.41%
+2020-10-08 03:03:44.707112
+dates: cPol 0.01 alphaPol 1.0 dPol 3 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 20.92%
+2020-10-08 03:05:17.836833
+dates: cPol 0.01 alphaPol 1.0 dPol 3 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 21.43%
+2020-10-08 03:06:53.830218
+dates: cPol 0.01 alphaPol 1.0 dPol 4 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 21.94%
+2020-10-08 03:08:23.726657
+dates: cPol 0.01 alphaPol 1.0 dPol 4 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 22.45%
+2020-10-08 03:09:36.226557
+dates: cPol 0.01 alphaPol 1.0 dPol 4 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 22.96%
+2020-10-08 03:10:56.560036
+dates: cPol 0.01 alphaPol 1.0 dPol 4 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 23.47%
+2020-10-08 03:12:08.768498
+dates: cPol 0.01 alphaPol 1.0 dPol 4 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 23.98%
+2020-10-08 03:13:20.025404
+dates: cPol 0.01 alphaPol 1.0 dPol 4 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 24.49%
+2020-10-08 03:14:43.089706
+dates: cPol 0.01 alphaPol 1.0 dPol 4 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 25.00%
+2020-10-08 03:16:01.450314
+dates: cPol 0.01 alphaPol 1.0 dPol 5 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 25.51%
+2020-10-08 03:17:11.363321
+dates: cPol 0.01 alphaPol 1.0 dPol 5 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 26.02%
+2020-10-08 03:18:15.101262
+dates: cPol 0.01 alphaPol 1.0 dPol 5 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 26.53%
+2020-10-08 03:19:15.459703
+dates: cPol 0.01 alphaPol 1.0 dPol 5 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 27.04%
+2020-10-08 03:20:24.649478
+dates: cPol 0.01 alphaPol 1.0 dPol 5 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 27.55%
+2020-10-08 03:21:28.708290
+dates: cPol 0.01 alphaPol 1.0 dPol 5 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 28.06%
+2020-10-08 03:22:34.495545
+dates: cPol 0.01 alphaPol 1.0 dPol 5 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 28.57%
+2020-10-08 03:23:40.218111
+dates: cPol 0.1 alphaPol 1.0 dPol 2 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 29.08%
+2020-10-08 03:24:47.911915
+dates: cPol 0.1 alphaPol 1.0 dPol 2 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 29.59%
+2020-10-08 03:25:51.080522
+dates: cPol 0.1 alphaPol 1.0 dPol 2 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 30.10%
+2020-10-08 03:26:58.047539
+dates: cPol 0.1 alphaPol 1.0 dPol 2 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 30.61%
+2020-10-08 03:28:00.508233
+dates: cPol 0.1 alphaPol 1.0 dPol 2 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 31.12%
+2020-10-08 03:29:07.745090
+dates: cPol 0.1 alphaPol 1.0 dPol 2 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 31.63%
+2020-10-08 03:30:12.935157
+dates: cPol 0.1 alphaPol 1.0 dPol 2 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 32.14%
+2020-10-08 03:31:16.923775
+dates: cPol 0.1 alphaPol 1.0 dPol 3 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 32.65%
+2020-10-08 03:32:21.841325
+dates: cPol 0.1 alphaPol 1.0 dPol 3 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 33.16%
+2020-10-08 03:33:30.377130
+dates: cPol 0.1 alphaPol 1.0 dPol 3 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 33.67%
+2020-10-08 03:34:39.033401
+dates: cPol 0.1 alphaPol 1.0 dPol 3 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 34.18%
+2020-10-08 03:35:48.474902
+dates: cPol 0.1 alphaPol 1.0 dPol 3 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 34.69%
+2020-10-08 03:36:57.958560
+dates: cPol 0.1 alphaPol 1.0 dPol 3 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 35.20%
+2020-10-08 03:38:02.385397
+dates: cPol 0.1 alphaPol 1.0 dPol 3 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 35.71%
+2020-10-08 03:39:10.049332
+dates: cPol 0.1 alphaPol 1.0 dPol 4 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 36.22%
+2020-10-08 03:40:17.128324
+dates: cPol 0.1 alphaPol 1.0 dPol 4 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 36.73%
+2020-10-08 03:41:24.698184
+dates: cPol 0.1 alphaPol 1.0 dPol 4 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 37.24%
+2020-10-08 03:42:29.206004
+dates: cPol 0.1 alphaPol 1.0 dPol 4 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 37.76%
+2020-10-08 03:43:32.661646
+dates: cPol 0.1 alphaPol 1.0 dPol 4 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 38.27%
+2020-10-08 03:44:37.787413
+dates: cPol 0.1 alphaPol 1.0 dPol 4 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 38.78%
+2020-10-08 03:45:42.719175
+dates: cPol 0.1 alphaPol 1.0 dPol 4 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 39.29%
+2020-10-08 03:46:50.164477
+dates: cPol 0.1 alphaPol 1.0 dPol 5 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 39.80%
+2020-10-08 03:47:54.776695
+dates: cPol 0.1 alphaPol 1.0 dPol 5 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 40.31%
+2020-10-08 03:49:00.040776
+dates: cPol 0.1 alphaPol 1.0 dPol 5 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 40.82%
+2020-10-08 03:50:09.702844
+dates: cPol 0.1 alphaPol 1.0 dPol 5 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 41.33%
+2020-10-08 03:51:15.569301
+dates: cPol 0.1 alphaPol 1.0 dPol 5 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 41.84%
+2020-10-08 03:52:21.669574
+dates: cPol 0.1 alphaPol 1.0 dPol 5 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 42.35%
+2020-10-08 03:53:27.743693
+dates: cPol 0.1 alphaPol 1.0 dPol 5 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 42.86%
+2020-10-08 03:54:30.569570
+dates: cPol 0.5 alphaPol 1.0 dPol 2 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 43.37%
+2020-10-08 03:55:31.342559
+dates: cPol 0.5 alphaPol 1.0 dPol 2 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 43.88%
+2020-10-08 03:56:32.739623
+dates: cPol 0.5 alphaPol 1.0 dPol 2 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 44.39%
+2020-10-08 03:57:33.285374
+dates: cPol 0.5 alphaPol 1.0 dPol 2 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 44.90%
+2020-10-08 03:58:35.548186
+dates: cPol 0.5 alphaPol 1.0 dPol 2 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 45.41%
+2020-10-08 03:59:39.785752
+dates: cPol 0.5 alphaPol 1.0 dPol 2 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 45.92%
+2020-10-08 04:00:41.731872
+dates: cPol 0.5 alphaPol 1.0 dPol 2 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 46.43%
+2020-10-08 04:01:44.815959
+dates: cPol 0.5 alphaPol 1.0 dPol 3 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 46.94%
+2020-10-08 04:02:49.152413
+dates: cPol 0.5 alphaPol 1.0 dPol 3 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 47.45%
+2020-10-08 04:03:54.500188
+dates: cPol 0.5 alphaPol 1.0 dPol 3 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 47.96%
+2020-10-08 04:05:01.475128
+dates: cPol 0.5 alphaPol 1.0 dPol 3 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 48.47%
+2020-10-08 04:06:04.299638
+dates: cPol 0.5 alphaPol 1.0 dPol 3 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 48.98%
+2020-10-08 04:07:09.967025
+dates: cPol 0.5 alphaPol 1.0 dPol 3 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 49.49%
+2020-10-08 04:08:14.018798
+dates: cPol 0.5 alphaPol 1.0 dPol 3 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 50.00%
+2020-10-08 04:09:17.885530
+dates: cPol 0.5 alphaPol 1.0 dPol 4 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 50.51%
+2020-10-08 04:10:26.840627
+dates: cPol 0.5 alphaPol 1.0 dPol 4 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 51.02%
+2020-10-08 04:11:32.838562
+dates: cPol 0.5 alphaPol 1.0 dPol 4 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 51.53%
+2020-10-08 04:12:38.293280
+dates: cPol 0.5 alphaPol 1.0 dPol 4 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 52.04%
+2020-10-08 04:13:40.764912
+dates: cPol 0.5 alphaPol 1.0 dPol 4 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 52.55%
+2020-10-08 04:14:47.444254
+dates: cPol 0.5 alphaPol 1.0 dPol 4 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 53.06%
+2020-10-08 04:15:53.268971
+dates: cPol 0.5 alphaPol 1.0 dPol 4 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 53.57%
+2020-10-08 04:16:56.599214
+dates: cPol 0.5 alphaPol 1.0 dPol 5 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 54.08%
+2020-10-08 04:17:59.654491
+dates: cPol 0.5 alphaPol 1.0 dPol 5 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 54.59%
+2020-10-08 04:19:05.531601
+dates: cPol 0.5 alphaPol 1.0 dPol 5 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 55.10%
+2020-10-08 04:20:10.672948
+dates: cPol 0.5 alphaPol 1.0 dPol 5 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 55.61%
+2020-10-08 04:21:16.467764
+dates: cPol 0.5 alphaPol 1.0 dPol 5 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 56.12%
+2020-10-08 04:22:24.917982
+dates: cPol 0.5 alphaPol 1.0 dPol 5 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 56.63%
+2020-10-08 04:23:30.522400
+dates: cPol 0.5 alphaPol 1.0 dPol 5 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 57.14%
+2020-10-08 04:24:36.670777
+dates: cPol 1.5 alphaPol 1.0 dPol 2 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 57.65%
+2020-10-08 04:25:51.867695
+dates: cPol 1.5 alphaPol 1.0 dPol 2 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 58.16%
+2020-10-08 04:26:58.585746
+dates: cPol 1.5 alphaPol 1.0 dPol 2 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 58.67%
+2020-10-08 04:28:13.123110
+dates: cPol 1.5 alphaPol 1.0 dPol 2 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 59.18%
+2020-10-08 04:29:26.231532
+dates: cPol 1.5 alphaPol 1.0 dPol 2 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 59.69%
+2020-10-08 04:30:38.766331
+dates: cPol 1.5 alphaPol 1.0 dPol 2 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 60.20%
+2020-10-08 04:31:47.469330
+dates: cPol 1.5 alphaPol 1.0 dPol 2 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 60.71%
+2020-10-08 04:32:55.993043
+dates: cPol 1.5 alphaPol 1.0 dPol 3 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 61.22%
+2020-10-08 04:34:08.706348
+dates: cPol 1.5 alphaPol 1.0 dPol 3 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 61.73%
+2020-10-08 04:35:18.369453
+dates: cPol 1.5 alphaPol 1.0 dPol 3 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 62.24%
+2020-10-08 04:36:29.689553
+dates: cPol 1.5 alphaPol 1.0 dPol 3 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 62.76%
+2020-10-08 04:37:40.343405
+dates: cPol 1.5 alphaPol 1.0 dPol 3 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 63.27%
+2020-10-08 04:38:51.553197
+dates: cPol 1.5 alphaPol 1.0 dPol 3 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 63.78%
+2020-10-08 04:40:03.582666
+dates: cPol 1.5 alphaPol 1.0 dPol 3 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 64.29%
+2020-10-08 04:41:14.025357
+dates: cPol 1.5 alphaPol 1.0 dPol 4 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 64.80%
+2020-10-08 04:42:24.142508
+dates: cPol 1.5 alphaPol 1.0 dPol 4 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 65.31%
+2020-10-08 04:43:33.054149
+dates: cPol 1.5 alphaPol 1.0 dPol 4 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 65.82%
+2020-10-08 04:44:44.069518
+dates: cPol 1.5 alphaPol 1.0 dPol 4 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 66.33%
+2020-10-08 04:45:54.166186
+dates: cPol 1.5 alphaPol 1.0 dPol 4 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 66.84%
+2020-10-08 04:47:04.100509
+dates: cPol 1.5 alphaPol 1.0 dPol 4 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 67.35%
+2020-10-08 04:48:20.349727
+dates: cPol 1.5 alphaPol 1.0 dPol 4 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.5585585585585585 , best 0.6036036036036037
+
+PROGRESS_P 67.86%
+2020-10-08 04:49:38.992944
+dates: cPol 1.5 alphaPol 1.0 dPol 5 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 68.37%
+2020-10-08 04:50:57.254285
+dates: cPol 1.5 alphaPol 1.0 dPol 5 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 68.88%
+2020-10-08 04:52:21.227968
+dates: cPol 1.5 alphaPol 1.0 dPol 5 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 69.39%
+2020-10-08 04:53:44.332975
+dates: cPol 1.5 alphaPol 1.0 dPol 5 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 69.90%
+2020-10-08 04:54:58.845743
+dates: cPol 1.5 alphaPol 1.0 dPol 5 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 70.41%
+2020-10-08 04:56:23.220948
+dates: cPol 1.5 alphaPol 1.0 dPol 5 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 70.92%
+2020-10-08 04:57:34.463413
+dates: cPol 1.5 alphaPol 1.0 dPol 5 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 71.43%
+2020-10-08 04:58:44.314447
+dates: cPol 8.0 alphaPol 1.0 dPol 2 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 71.94%
+2020-10-08 04:59:53.044108
+dates: cPol 8.0 alphaPol 1.0 dPol 2 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 72.45%
+2020-10-08 05:01:15.361367
+dates: cPol 8.0 alphaPol 1.0 dPol 2 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 72.96%
+2020-10-08 05:03:08.368326
+dates: cPol 8.0 alphaPol 1.0 dPol 2 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 73.47%
+2020-10-08 05:05:08.872155
+dates: cPol 8.0 alphaPol 1.0 dPol 2 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 73.98%
+2020-10-08 05:07:20.607201
+dates: cPol 8.0 alphaPol 1.0 dPol 2 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 74.49%
+2020-10-08 05:09:22.723409
+dates: cPol 8.0 alphaPol 1.0 dPol 2 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 75.00%
+2020-10-08 05:11:03.048728
+dates: cPol 8.0 alphaPol 1.0 dPol 3 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 75.51%
+2020-10-08 05:12:37.826805
+dates: cPol 8.0 alphaPol 1.0 dPol 3 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 76.02%
+2020-10-08 05:14:11.277355
+dates: cPol 8.0 alphaPol 1.0 dPol 3 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 76.53%
+2020-10-08 05:15:43.855309
+dates: cPol 8.0 alphaPol 1.0 dPol 3 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 77.04%
+2020-10-08 05:17:16.271181
+dates: cPol 8.0 alphaPol 1.0 dPol 3 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 77.55%
+2020-10-08 05:18:40.976682
+dates: cPol 8.0 alphaPol 1.0 dPol 3 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 78.06%
+2020-10-08 05:20:01.192610
+dates: cPol 8.0 alphaPol 1.0 dPol 3 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 78.57%
+2020-10-08 05:21:22.664424
+dates: cPol 8.0 alphaPol 1.0 dPol 4 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 79.08%
+2020-10-08 05:22:43.576809
+dates: cPol 8.0 alphaPol 1.0 dPol 4 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 79.59%
+2020-10-08 05:24:05.103898
+dates: cPol 8.0 alphaPol 1.0 dPol 4 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 80.10%
+2020-10-08 05:25:25.529138
+dates: cPol 8.0 alphaPol 1.0 dPol 4 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 80.61%
+2020-10-08 05:26:46.265369
+dates: cPol 8.0 alphaPol 1.0 dPol 4 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 81.12%
+2020-10-08 05:28:06.896148
+dates: cPol 8.0 alphaPol 1.0 dPol 4 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 81.63%
+2020-10-08 05:29:29.678746
+dates: cPol 8.0 alphaPol 1.0 dPol 4 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.3963963963963964 , best 0.6036036036036037
+
+PROGRESS_P 82.14%
+2020-10-08 05:31:03.174338
+dates: cPol 8.0 alphaPol 1.0 dPol 5 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 82.65%
+2020-10-08 05:32:37.371750
+dates: cPol 8.0 alphaPol 1.0 dPol 5 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 83.16%
+2020-10-08 05:34:09.617278
+dates: cPol 8.0 alphaPol 1.0 dPol 5 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 83.67%
+2020-10-08 05:35:46.936419
+dates: cPol 8.0 alphaPol 1.0 dPol 5 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 84.18%
+2020-10-08 05:37:19.174585
+dates: cPol 8.0 alphaPol 1.0 dPol 5 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 84.69%
+2020-10-08 05:38:52.165091
+dates: cPol 8.0 alphaPol 1.0 dPol 5 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 85.20%
+2020-10-08 05:40:25.028823
+dates: cPol 8.0 alphaPol 1.0 dPol 5 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 85.71%
+2020-10-08 05:42:03.062680
+dates: cPol 30.0 alphaPol 1.0 dPol 2 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 86.22%
+2020-10-08 05:43:31.230269
+dates: cPol 30.0 alphaPol 1.0 dPol 2 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 86.73%
+2020-10-08 05:44:56.703515
+dates: cPol 30.0 alphaPol 1.0 dPol 2 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 87.24%
+2020-10-08 05:46:24.681954
+dates: cPol 30.0 alphaPol 1.0 dPol 2 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 87.76%
+2020-10-08 05:47:49.926365
+dates: cPol 30.0 alphaPol 1.0 dPol 2 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 88.27%
+2020-10-08 05:49:15.860073
+dates: cPol 30.0 alphaPol 1.0 dPol 2 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 88.78%
+2020-10-08 05:50:39.315303
+dates: cPol 30.0 alphaPol 1.0 dPol 2 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.44144144144144143 , best 0.6036036036036037
+
+PROGRESS_P 89.29%
+2020-10-08 05:51:57.873893
+dates: cPol 30.0 alphaPol 1.0 dPol 3 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 89.80%
+2020-10-08 05:53:14.252015
+dates: cPol 30.0 alphaPol 1.0 dPol 3 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 90.31%
+2020-10-08 05:54:24.645584
+dates: cPol 30.0 alphaPol 1.0 dPol 3 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 90.82%
+2020-10-08 05:55:35.817153
+dates: cPol 30.0 alphaPol 1.0 dPol 3 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 91.33%
+2020-10-08 05:56:46.587464
+dates: cPol 30.0 alphaPol 1.0 dPol 3 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 91.84%
+2020-10-08 05:57:57.048600
+dates: cPol 30.0 alphaPol 1.0 dPol 3 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 92.35%
+2020-10-08 05:59:08.191990
+dates: cPol 30.0 alphaPol 1.0 dPol 3 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 92.86%
+2020-10-08 06:00:18.756389
+dates: cPol 30.0 alphaPol 1.0 dPol 4 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 93.37%
+2020-10-08 06:01:30.107290
+dates: cPol 30.0 alphaPol 1.0 dPol 4 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 93.88%
+2020-10-08 06:02:41.072483
+dates: cPol 30.0 alphaPol 1.0 dPol 4 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 94.39%
+2020-10-08 06:03:51.787356
+dates: cPol 30.0 alphaPol 1.0 dPol 4 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 94.90%
+2020-10-08 06:05:02.339212
+dates: cPol 30.0 alphaPol 1.0 dPol 4 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 95.41%
+2020-10-08 06:06:13.283467
+dates: cPol 30.0 alphaPol 1.0 dPol 4 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 95.92%
+2020-10-08 06:07:23.959416
+dates: cPol 30.0 alphaPol 1.0 dPol 4 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 96.43%
+2020-10-08 06:08:34.957562
+dates: cPol 30.0 alphaPol 1.0 dPol 5 cSVM 0.01
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 96.94%
+2020-10-08 06:09:45.653517
+dates: cPol 30.0 alphaPol 1.0 dPol 5 cSVM 0.3
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 97.45%
+2020-10-08 06:10:56.380990
+dates: cPol 30.0 alphaPol 1.0 dPol 5 cSVM 1.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 97.96%
+2020-10-08 06:12:07.788071
+dates: cPol 30.0 alphaPol 1.0 dPol 5 cSVM 7.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 98.47%
+2020-10-08 06:13:17.967671
+dates: cPol 30.0 alphaPol 1.0 dPol 5 cSVM 25.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 98.98%
+2020-10-08 06:14:28.572756
+dates: cPol 30.0 alphaPol 1.0 dPol 5 cSVM 50.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+PROGRESS_P 99.49%
+2020-10-08 06:15:39.570548
+dates: cPol 30.0 alphaPol 1.0 dPol 5 cSVM 100.0
+i=0 step=0
+i=1 step=50
+i=2 step=100
+i=3 step=150
+i=4 step=200
+No change 0.6036036036036037 , best 0.6036036036036037
+
+Best result was found cPol=0.001 alphaPol=1.0 dPol=3 cSVM=0.01

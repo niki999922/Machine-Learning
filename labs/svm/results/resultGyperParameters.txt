@@ -1,0 +1,73 @@
+Old:
+
+lin_chips:
+cLin = 0.001
+cSVM = 25.0
+
+lin_geyser:
+cLin = 0.5
+cSVM = 0.1
+
+pol_chips:
+cPol = 1.5
+alphaPol = 1.0
+dPol = 3
+cSVM = 0.3
+
+pol_geyser:
+cPol = 0.001
+alphaPol = 1
+dPol = 3
+cSVM = 0.01
+
+
+gau_chips:
+sigmaGau = 0.5
+cSVM = 1.0
+
+gau_geyser:
+sigmaGau = 0.01
+cSVM = 0.01
+
+
+New:
+
+
+
+best 0.4661016949152542
+lin_chips:
+cLin = 1.5
+cSVM = 100
+
+best 0.9099099099099099
+lin_geyser:
+cLin = 0
+cSVM = 25
+
+
+
+best 0.8305084745762712
+pol_chips:
+cPol = 8
+alphaPol = 1.0
+dPol = 3
+cSVM = 7.0
+
+best 0.9054054054054054
+pol_geyser:
+cPol = 0.01
+alphaPol = 1
+dPol = 2
+cSVM = 0.01
+
+
+
+best 0.8050847457627118
+gau_chips:
+sigmaGau = 0.5
+cSVM = 50
+
+best 0.9054054054054054
+gau_geyser:
+sigmaGau = 5
+cSVM = 50

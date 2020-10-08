@@ -1,0 +1,464 @@
+
+PROGRESS_G 0.00%
+2020-10-08 05:01:06.154417
+dates: sigmaGau 0.01 cSVM 0.01
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.3559322033898305
+
+PROGRESS_G 2.38%
+2020-10-08 05:01:27.711138
+dates: sigmaGau 0.01 cSVM 0.3
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.3728813559322034
+
+PROGRESS_G 4.76%
+2020-10-08 05:01:50.462622
+dates: sigmaGau 0.01 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.3898305084745763
+
+PROGRESS_G 7.14%
+2020-10-08 05:02:13.369651
+dates: sigmaGau 0.01 cSVM 7.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3898305084745763 , best 0.3898305084745763
+
+PROGRESS_G 9.52%
+2020-10-08 05:02:35.314529
+dates: sigmaGau 0.01 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3898305084745763 , best 0.3898305084745763
+
+PROGRESS_G 11.90%
+2020-10-08 05:03:01.298220
+dates: sigmaGau 0.01 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3898305084745763 , best 0.3898305084745763
+
+PROGRESS_G 14.29%
+2020-10-08 05:03:27.300791
+dates: sigmaGau 0.01 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3898305084745763 , best 0.3898305084745763
+
+PROGRESS_G 16.67%
+2020-10-08 05:03:51.506112
+dates: sigmaGau 0.1 cSVM 0.01
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3728813559322034 , best 0.3898305084745763
+
+PROGRESS_G 19.05%
+2020-10-08 05:04:13.598240
+dates: sigmaGau 0.1 cSVM 0.3
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.4406779661016949
+
+PROGRESS_G 21.43%
+2020-10-08 05:04:37.450209
+dates: sigmaGau 0.1 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.6949152542372882
+
+PROGRESS_G 23.81%
+2020-10-08 05:05:04.830000
+dates: sigmaGau 0.1 cSVM 7.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.7033898305084746
+
+PROGRESS_G 26.19%
+2020-10-08 05:05:32.483574
+dates: sigmaGau 0.1 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.7033898305084746 , best 0.7033898305084746
+
+PROGRESS_G 28.57%
+2020-10-08 05:05:59.496227
+dates: sigmaGau 0.1 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.6864406779661016 , best 0.7033898305084746
+
+PROGRESS_G 30.95%
+2020-10-08 05:06:30.890742
+dates: sigmaGau 0.1 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.6864406779661016 , best 0.7033898305084746
+
+PROGRESS_G 33.33%
+2020-10-08 05:07:07.569668
+dates: sigmaGau 0.5 cSVM 0.01
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3898305084745763 , best 0.7033898305084746
+
+PROGRESS_G 35.71%
+2020-10-08 05:07:40.616024
+dates: sigmaGau 0.5 cSVM 0.3
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.6949152542372882 , best 0.7033898305084746
+
+PROGRESS_G 38.10%
+2020-10-08 05:08:04.280134
+dates: sigmaGau 0.5 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.7542372881355932
+
+PROGRESS_G 40.48%
+2020-10-08 05:08:31.451181
+dates: sigmaGau 0.5 cSVM 7.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.7966101694915254
+
+PROGRESS_G 42.86%
+2020-10-08 05:09:00.436199
+dates: sigmaGau 0.5 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.7796610169491526 , best 0.7966101694915254
+
+PROGRESS_G 45.24%
+2020-10-08 05:09:27.348736
+dates: sigmaGau 0.5 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.8050847457627118
+
+PROGRESS_G 47.62%
+2020-10-08 05:09:52.763807
+dates: sigmaGau 0.5 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.788135593220339 , best 0.8050847457627118
+
+PROGRESS_G 50.00%
+2020-10-08 05:10:18.054845
+dates: sigmaGau 1 cSVM 0.01
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3898305084745763 , best 0.8050847457627118
+
+PROGRESS_G 52.38%
+2020-10-08 05:10:39.371492
+dates: sigmaGau 1 cSVM 0.3
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3983050847457627 , best 0.8050847457627118
+
+PROGRESS_G 54.76%
+2020-10-08 05:10:58.640477
+dates: sigmaGau 1 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.7203389830508474 , best 0.8050847457627118
+
+PROGRESS_G 57.14%
+2020-10-08 05:11:19.006735
+dates: sigmaGau 1 cSVM 7.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.7711864406779662 , best 0.8050847457627118
+
+PROGRESS_G 59.52%
+2020-10-08 05:11:40.488734
+dates: sigmaGau 1 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.8050847457627118 , best 0.8050847457627118
+
+PROGRESS_G 61.90%
+2020-10-08 05:12:01.518613
+dates: sigmaGau 1 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.788135593220339 , best 0.8050847457627118
+
+PROGRESS_G 64.29%
+2020-10-08 05:12:23.021270
+dates: sigmaGau 1 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.7796610169491526 , best 0.8050847457627118
+
+PROGRESS_G 66.67%
+2020-10-08 05:12:45.291569
+dates: sigmaGau 5 cSVM 0.01
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3644067796610169 , best 0.8050847457627118
+
+PROGRESS_G 69.05%
+2020-10-08 05:13:04.814101
+dates: sigmaGau 5 cSVM 0.3
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3559322033898305 , best 0.8050847457627118
+
+PROGRESS_G 71.43%
+2020-10-08 05:13:24.781838
+dates: sigmaGau 5 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3728813559322034 , best 0.8050847457627118
+
+PROGRESS_G 73.81%
+2020-10-08 05:13:43.821855
+dates: sigmaGau 5 cSVM 7.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3474576271186441 , best 0.8050847457627118
+
+PROGRESS_G 76.19%
+2020-10-08 05:14:03.116858
+dates: sigmaGau 5 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3389830508474576 , best 0.8050847457627118
+
+PROGRESS_G 78.57%
+2020-10-08 05:14:22.578794
+dates: sigmaGau 5 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3559322033898305 , best 0.8050847457627118
+
+PROGRESS_G 80.95%
+2020-10-08 05:14:42.018000
+dates: sigmaGau 5 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.4830508474576271 , best 0.8050847457627118
+
+PROGRESS_G 83.33%
+2020-10-08 05:15:01.837117
+dates: sigmaGau 25 cSVM 0.01
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3728813559322034 , best 0.8050847457627118
+
+PROGRESS_G 85.71%
+2020-10-08 05:15:20.134314
+dates: sigmaGau 25 cSVM 0.3
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3728813559322034 , best 0.8050847457627118
+
+PROGRESS_G 88.10%
+2020-10-08 05:15:39.156515
+dates: sigmaGau 25 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3728813559322034 , best 0.8050847457627118
+
+PROGRESS_G 90.48%
+2020-10-08 05:15:59.679112
+dates: sigmaGau 25 cSVM 7.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3559322033898305 , best 0.8050847457627118
+
+PROGRESS_G 92.86%
+2020-10-08 05:16:19.949378
+dates: sigmaGau 25 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3728813559322034 , best 0.8050847457627118
+
+PROGRESS_G 95.24%
+2020-10-08 05:16:40.520112
+dates: sigmaGau 25 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3728813559322034 , best 0.8050847457627118
+
+PROGRESS_G 97.62%
+2020-10-08 05:17:00.448651
+dates: sigmaGau 25 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.3644067796610169 , best 0.8050847457627118
+
+Best result was found sigmaGau=0.5 cSVM=50.0

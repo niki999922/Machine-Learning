@@ -1,0 +1,541 @@
+
+PROGRESS_L 0.00%
+2020-10-08 01:20:57.233169
+dates: cLIN 0.001 cSVM 0.1
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.4406779661016949
+
+PROGRESS_L 2.04%
+2020-10-08 01:21:10.016198
+dates: cLIN 0.001 cSVM 0.5
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.4576271186440678
+
+PROGRESS_L 4.08%
+2020-10-08 01:21:23.411446
+dates: cLIN 0.001 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.4661016949152542
+
+PROGRESS_L 6.12%
+2020-10-08 01:21:36.054202
+dates: cLIN 0.001 cSVM 10.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.5254237288135594
+
+PROGRESS_L 8.16%
+2020-10-08 01:21:48.211537
+dates: cLIN 0.001 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+Found better accuracy 0.5338983050847458
+
+PROGRESS_L 10.20%
+2020-10-08 01:22:01.214830
+dates: cLIN 0.001 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5338983050847458 , best 0.5338983050847458
+
+PROGRESS_L 12.24%
+2020-10-08 01:22:13.881661
+dates: cLIN 0.001 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5338983050847458 , best 0.5338983050847458
+
+PROGRESS_L 14.29%
+2020-10-08 01:22:26.758831
+dates: cLIN 0.01 cSVM 0.1
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.4576271186440678 , best 0.5338983050847458
+
+PROGRESS_L 16.33%
+2020-10-08 01:22:40.476885
+dates: cLIN 0.01 cSVM 0.5
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.423728813559322 , best 0.5338983050847458
+
+PROGRESS_L 18.37%
+2020-10-08 01:22:55.116133
+dates: cLIN 0.01 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.4661016949152542 , best 0.5338983050847458
+
+PROGRESS_L 20.41%
+2020-10-08 01:23:08.884921
+dates: cLIN 0.01 cSVM 10.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5254237288135594 , best 0.5338983050847458
+
+PROGRESS_L 22.45%
+2020-10-08 01:23:22.293224
+dates: cLIN 0.01 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5254237288135594 , best 0.5338983050847458
+
+PROGRESS_L 24.49%
+2020-10-08 01:23:35.926342
+dates: cLIN 0.01 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5254237288135594 , best 0.5338983050847458
+
+PROGRESS_L 26.53%
+2020-10-08 01:23:50.438001
+dates: cLIN 0.01 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5254237288135594 , best 0.5338983050847458
+
+PROGRESS_L 28.57%
+2020-10-08 01:24:03.764309
+dates: cLIN 0.1 cSVM 0.1
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.4745762711864407 , best 0.5338983050847458
+
+PROGRESS_L 30.61%
+2020-10-08 01:24:17.726663
+dates: cLIN 0.1 cSVM 0.5
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.4576271186440678 , best 0.5338983050847458
+
+PROGRESS_L 32.65%
+2020-10-08 01:24:31.659468
+dates: cLIN 0.1 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.4576271186440678 , best 0.5338983050847458
+
+PROGRESS_L 34.69%
+2020-10-08 01:24:46.002904
+dates: cLIN 0.1 cSVM 10.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5169491525423728 , best 0.5338983050847458
+
+PROGRESS_L 36.73%
+2020-10-08 01:24:59.123260
+dates: cLIN 0.1 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5169491525423728 , best 0.5338983050847458
+
+PROGRESS_L 38.78%
+2020-10-08 01:25:12.158214
+dates: cLIN 0.1 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5169491525423728 , best 0.5338983050847458
+
+PROGRESS_L 40.82%
+2020-10-08 01:25:25.551854
+dates: cLIN 0.1 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5169491525423728 , best 0.5338983050847458
+
+PROGRESS_L 42.86%
+2020-10-08 01:25:38.635907
+dates: cLIN 0.5 cSVM 0.1
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.4406779661016949 , best 0.5338983050847458
+
+PROGRESS_L 44.90%
+2020-10-08 01:25:53.867293
+dates: cLIN 0.5 cSVM 0.5
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.4491525423728814 , best 0.5338983050847458
+
+PROGRESS_L 46.94%
+2020-10-08 01:26:08.608528
+dates: cLIN 0.5 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.4915254237288136 , best 0.5338983050847458
+
+PROGRESS_L 48.98%
+2020-10-08 01:26:23.822802
+dates: cLIN 0.5 cSVM 10.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5084745762711864 , best 0.5338983050847458
+
+PROGRESS_L 51.02%
+2020-10-08 01:26:38.834489
+dates: cLIN 0.5 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5084745762711864 , best 0.5338983050847458
+
+PROGRESS_L 53.06%
+2020-10-08 01:26:53.200109
+dates: cLIN 0.5 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5084745762711864 , best 0.5338983050847458
+
+PROGRESS_L 55.10%
+2020-10-08 01:27:07.312425
+dates: cLIN 0.5 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5084745762711864 , best 0.5338983050847458
+
+PROGRESS_L 57.14%
+2020-10-08 01:27:22.357283
+dates: cLIN 1.5 cSVM 0.1
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.4661016949152542 , best 0.5338983050847458
+
+PROGRESS_L 59.18%
+2020-10-08 01:27:37.494981
+dates: cLIN 1.5 cSVM 0.5
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5084745762711864 , best 0.5338983050847458
+
+PROGRESS_L 61.22%
+2020-10-08 01:27:54.774589
+dates: cLIN 1.5 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5169491525423728 , best 0.5338983050847458
+
+PROGRESS_L 63.27%
+2020-10-08 01:28:12.095630
+dates: cLIN 1.5 cSVM 10.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5169491525423728 , best 0.5338983050847458
+
+PROGRESS_L 65.31%
+2020-10-08 01:28:29.057387
+dates: cLIN 1.5 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5169491525423728 , best 0.5338983050847458
+
+PROGRESS_L 67.35%
+2020-10-08 01:28:46.920162
+dates: cLIN 1.5 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5169491525423728 , best 0.5338983050847458
+
+PROGRESS_L 69.39%
+2020-10-08 01:29:03.737311
+dates: cLIN 1.5 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5169491525423728 , best 0.5338983050847458
+
+PROGRESS_L 71.43%
+2020-10-08 01:29:22.181558
+dates: cLIN 8.0 cSVM 0.1
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.4745762711864407 , best 0.5338983050847458
+
+PROGRESS_L 73.47%
+2020-10-08 01:29:42.621935
+dates: cLIN 8.0 cSVM 0.5
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5084745762711864 , best 0.5338983050847458
+
+PROGRESS_L 75.51%
+2020-10-08 01:30:08.490215
+dates: cLIN 8.0 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5084745762711864 , best 0.5338983050847458
+
+PROGRESS_L 77.55%
+2020-10-08 01:30:34.263390
+dates: cLIN 8.0 cSVM 10.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5084745762711864 , best 0.5338983050847458
+
+PROGRESS_L 79.59%
+2020-10-08 01:31:00.563410
+dates: cLIN 8.0 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5084745762711864 , best 0.5338983050847458
+
+PROGRESS_L 81.63%
+2020-10-08 01:31:26.326781
+dates: cLIN 8.0 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5084745762711864 , best 0.5338983050847458
+
+PROGRESS_L 83.67%
+2020-10-08 01:31:51.919611
+dates: cLIN 8.0 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5084745762711864 , best 0.5338983050847458
+
+PROGRESS_L 85.71%
+2020-10-08 01:32:18.641130
+dates: cLIN 30.0 cSVM 0.1
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5 , best 0.5338983050847458
+
+PROGRESS_L 87.76%
+2020-10-08 01:32:45.778174
+dates: cLIN 30.0 cSVM 0.5
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5 , best 0.5338983050847458
+
+PROGRESS_L 89.80%
+2020-10-08 01:33:15.469885
+dates: cLIN 30.0 cSVM 1.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5 , best 0.5338983050847458
+
+PROGRESS_L 91.84%
+2020-10-08 01:33:41.174152
+dates: cLIN 30.0 cSVM 10.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5 , best 0.5338983050847458
+
+PROGRESS_L 93.88%
+2020-10-08 01:34:06.532042
+dates: cLIN 30.0 cSVM 25.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5 , best 0.5338983050847458
+
+PROGRESS_L 95.92%
+2020-10-08 01:34:33.928336
+dates: cLIN 30.0 cSVM 50.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5 , best 0.5338983050847458
+
+PROGRESS_L 97.96%
+2020-10-08 01:34:58.917247
+dates: cLIN 30.0 cSVM 100.0
+i=0 step=0
+i=1 step=20
+i=2 step=40
+i=3 step=60
+i=4 step=80
+i=5 step=100
+No change 0.5 , best 0.5338983050847458
+
+Best result was found cLin=0.001 cSVM=25.0
