@@ -476,9 +476,9 @@ if __name__ == '__main__':
     # printPlotsGaussian(dates, xCord, yCord, 0.5, 50)
 
     # print for geyser.csv
-    printPlotsLinear(dates, xCord, yCord, 0, 25)
-    printPlotsPolynomial(dates, xCord, yCord, 0.01, 1, 2, 0.01)
-    printPlotsGaussian(dates, xCord, yCord, 5, 50)
+    # printPlotsLinear(dates, xCord, yCord, 0, 25)
+    # printPlotsPolynomial(dates, xCord, yCord, 0.01, 1, 2, 0.01)
+    # printPlotsGaussian(dates, xCord, yCord, 5, 50)
 
     # linear
     # for chips
