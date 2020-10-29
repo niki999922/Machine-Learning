@@ -29,6 +29,7 @@ def evalProbability(classes, words, k, alpha):
 
 
 if __name__ == '__main__':
+    eps = 0.00001
     k = int(input())
     lambdas = [int(el) for el in input().split(" ")]
     alpha = int(input())
@@ -50,41 +51,29 @@ if __name__ == '__main__':
     c_w_p = evalProbability(classes, words, k, alpha)
     # printTable(c_w_p)
 
-    # need c_count and c_w_p
     m = int(input())
     for _ in range(m):
         count, *wordsTmp_ = input().split()
         foundWords = set(wordsTmp_)
         notFoundWords = words - foundWords
-        res_p = [0 for i in range(k)]
+        res_p = [0.0 for _ in range(k)]
         for i in range(k):
-            resTmp = lambdas[i] * c_count[i] / n
-            for word in foundWords:
-                if c_w_p[i].__contains__(word):
-                    resTmp *= c_w_p[i][word][0] / c_w_p[i][word][1]
-            for word in notFoundWords:
-                resTmp *= (c_w_p[i][word][1] - c_w_p[i][word][0]) / c_w_p[i][word][1]
+            resTmp = math.log(lambdas[i] + eps) + math.log(c_count[i] if c_count[i] != 0 else eps) - math.log(n + eps)
+            for word in words:
+                x, y = c_w_p[i][word]
+                if foundWords.__contains__(word):
+                    resTmp += math.log(x + eps) - math.log(y + eps)
+                else:
+                    resTmp += math.log(y - x + eps) - math.log(y + eps)
             res_p[i] = resTmp
+        sumRes = sum(res_p)
+        maxRes = max(res_p)
+        helper = sumRes / k
+        if maxRes - helper > 15:
+            helper = maxRes + 10
+        res_p = list(map(lambda el: math.exp(el - helper), res_p))
+        newSum = sum(res_p)
         for i in range(k):
-            print(res_p[i] / sum(res_p), end=" ")
+            print(0 if newSum == 0 else res_p[i] / newSum, end=" ")
         print("")
-
-    # need c_count and c_w_p with logs
-    # m = int(input())
-    # for _ in range(m):
-    #     count, *wordsTmp_ = input().split()
-    #     foundWords = set(wordsTmp_)
-    #     notFoundWords = words - foundWords
-    #     res_p = [0 for i in range(k)]
-    #     for i in range(k):
-    #         resTmp = math.log(lambdas[i] * c_count[i]) - math.log(n)
-    #         for word in foundWords:
-    #             if c_w_p[i].__contains__(word):
-    #                 resTmp += math.log(c_w_p[i][word][0]) - math.log(c_w_p[i][word][1])
-    #         for word in notFoundWords:
-    #             resTmp += math.log(c_w_p[i][word][1] - c_w_p[i][word][0]) - math.log(c_w_p[i][word][1])
-    #         res_p[i] = math.exp(resTmp)
-    #     for i in range(k):
-    #         print(res_p[i] / sum(res_p), end=" ")
-    #     print("")
 
