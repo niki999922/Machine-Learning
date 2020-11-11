@@ -1,0 +1,1152 @@
+open on read fileName: "05_train"
+open on read fileName: "05_test"
+teaching tree
+teaching id: 1, train size: 198 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 2, train size: 12 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 3, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 4, train size: 11 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 5, train size: 186 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 6, train size: 152 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 7, train size: 137 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 8, train size: 9 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 9, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 10, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 11, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 12, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 13, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 14, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 15, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 16, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 17, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 18, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 19, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 20, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 21, train size: 128 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 22, train size: 121 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 23, train size: 81 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 24, train size: 6 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 25, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 26, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 27, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 28, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 29, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 30, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 31, train size: 75 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 32, train size: 40 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 33, train size: 7 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 34, train size: 6 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 35, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 36, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 37, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 38, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 39, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 40, train size: 15 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 41, train size: 10 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 42, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 43, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 44, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 45, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 46, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 47, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 48, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 49, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 50, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 51, train size: 34 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 52, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 53, train size: 33 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 54, train size: 12 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 55, train size: 8 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 56, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 57, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 58, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 59, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 60, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 61, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 62, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 63, train size: 21 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 64, train size: 20 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 65, train size: 15 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 66, train size: 8 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 67, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 68, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 69, train size: 7 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 70, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 71, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching tree
+teaching id: 1, train size: 198 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 2, train size: 14 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 3, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 4, train size: 13 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 5, train size: 6 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 6, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 7, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 8, train size: 7 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 9, train size: 184 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 10, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 11, train size: 183 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 12, train size: 11 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 13, train size: 10 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 14, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 15, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 16, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 17, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 18, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 19, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 20, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 21, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 22, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 23, train size: 172 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 24, train size: 93 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 25, train size: 15 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 26, train size: 9 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 27, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 28, train size: 8 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 29, train size: 6 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 30, train size: 78 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 31, train size: 79 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching tree
+teaching id: 1, train size: 198 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 2, train size: 14 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 3, train size: 13 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 4, train size: 12 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 5, train size: 11 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 6, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 7, train size: 10 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 8, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 9, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 10, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 11, train size: 184 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 12, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 13, train size: 183 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 14, train size: 172 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 15, train size: 137 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 16, train size: 104 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 17, train size: 83 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 18, train size: 27 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 19, train size: 9 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 20, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 21, train size: 8 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 22, train size: 18 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 23, train size: 56 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 24, train size: 21 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 25, train size: 33 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 26, train size: 35 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 27, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 28, train size: 34 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 29, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 30, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 31, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 32, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 33, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 34, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 35, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 36, train size: 29 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 37, train size: 11 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 38, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 39, train size: 10 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching tree
+teaching id: 1, train size: 198 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 2, train size: 14 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 3, train size: 13 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 4, train size: 10 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 5, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 6, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 7, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 8, train size: 6 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 9, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 10, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 11, train size: 184 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 12, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 13, train size: 183 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 14, train size: 147 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 15, train size: 91 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 16, train size: 42 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 17, train size: 32 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 18, train size: 6 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 19, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 20, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 21, train size: 26 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 22, train size: 10 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 23, train size: 49 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 24, train size: 56 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 25, train size: 36 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 26, train size: 7 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 27, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 28, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 29, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 30, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 31, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 32, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 33, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 34, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 35, train size: 29 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 36, train size: 26 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 37, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 38, train size: 25 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 39, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 40, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 41, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 42, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 43, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching tree
+teaching id: 1, train size: 198 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 2, train size: 15 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 3, train size: 183 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 4, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 5, train size: 182 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 6, train size: 141 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 7, train size: 48 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 8, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 9, train size: 47 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 10, train size: 93 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 11, train size: 41 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 12, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 13, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 14, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 15, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 16, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 17, train size: 36 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 18, train size: 33 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 19, train size: 21 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 20, train size: 12 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 21, train size: 9 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 22, train size: 7 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 23, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 24, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 25, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 26, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 27, train size: 9 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 28, train size: 12 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 29, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 30, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 31, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 32, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 33, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+1 of 924
+2 of 924
+3 of 924
+4 of 924
+5 of 924
+6 of 924
+7 of 924
+8 of 924
+9 of 924
+10 of 924
+11 of 924
+12 of 924
+13 of 924
+14 of 924
+15 of 924
+16 of 924
+17 of 924
+18 of 924
+19 of 924
+20 of 924
+21 of 924
+22 of 924
+23 of 924
+24 of 924
+25 of 924
+26 of 924
+27 of 924
+28 of 924
+29 of 924
+30 of 924
+31 of 924
+32 of 924
+33 of 924
+34 of 924
+35 of 924
+36 of 924
+37 of 924
+38 of 924
+39 of 924
+40 of 924
+41 of 924
+42 of 924
+43 of 924
+44 of 924
+45 of 924
+46 of 924
+47 of 924
+48 of 924
+49 of 924
+50 of 924
+51 of 924
+52 of 924
+53 of 924
+54 of 924
+55 of 924
+56 of 924
+57 of 924
+58 of 924
+59 of 924
+60 of 924
+61 of 924
+62 of 924
+63 of 924
+64 of 924
+65 of 924
+66 of 924
+67 of 924
+68 of 924
+69 of 924
+70 of 924
+71 of 924
+72 of 924
+73 of 924
+74 of 924
+75 of 924
+76 of 924
+77 of 924
+78 of 924
+79 of 924
+80 of 924
+81 of 924
+82 of 924
+83 of 924
+84 of 924
+85 of 924
+86 of 924
+87 of 924
+88 of 924
+89 of 924
+90 of 924
+91 of 924
+92 of 924
+93 of 924
+94 of 924
+95 of 924
+96 of 924
+97 of 924
+98 of 924
+99 of 924
+100 of 924
+101 of 924
+102 of 924
+103 of 924
+104 of 924
+105 of 924
+106 of 924
+107 of 924
+108 of 924
+109 of 924
+110 of 924
+111 of 924
+112 of 924
+113 of 924
+114 of 924
+115 of 924
+116 of 924
+117 of 924
+118 of 924
+119 of 924
+120 of 924
+121 of 924
+122 of 924
+123 of 924
+124 of 924
+125 of 924
+126 of 924
+127 of 924
+128 of 924
+129 of 924
+130 of 924
+131 of 924
+132 of 924
+133 of 924
+134 of 924
+135 of 924
+136 of 924
+137 of 924
+138 of 924
+139 of 924
+140 of 924
+141 of 924
+142 of 924
+143 of 924
+144 of 924
+145 of 924
+146 of 924
+147 of 924
+148 of 924
+149 of 924
+150 of 924
+151 of 924
+152 of 924
+153 of 924
+154 of 924
+155 of 924
+156 of 924
+157 of 924
+158 of 924
+159 of 924
+160 of 924
+161 of 924
+162 of 924
+163 of 924
+164 of 924
+165 of 924
+166 of 924
+167 of 924
+168 of 924
+169 of 924
+170 of 924
+171 of 924
+172 of 924
+173 of 924
+174 of 924
+175 of 924
+176 of 924
+177 of 924
+178 of 924
+179 of 924
+180 of 924
+181 of 924
+182 of 924
+183 of 924
+184 of 924
+185 of 924
+186 of 924
+187 of 924
+188 of 924
+189 of 924
+190 of 924
+191 of 924
+192 of 924
+193 of 924
+194 of 924
+195 of 924
+196 of 924
+197 of 924
+198 of 924
+199 of 924
+200 of 924
+201 of 924
+202 of 924
+203 of 924
+204 of 924
+205 of 924
+206 of 924
+207 of 924
+208 of 924
+209 of 924
+210 of 924
+211 of 924
+212 of 924
+213 of 924
+214 of 924
+215 of 924
+216 of 924
+217 of 924
+218 of 924
+219 of 924
+220 of 924
+221 of 924
+222 of 924
+223 of 924
+224 of 924
+225 of 924
+226 of 924
+227 of 924
+228 of 924
+229 of 924
+230 of 924
+231 of 924
+232 of 924
+233 of 924
+234 of 924
+235 of 924
+236 of 924
+237 of 924
+238 of 924
+239 of 924
+240 of 924
+241 of 924
+242 of 924
+243 of 924
+244 of 924
+245 of 924
+246 of 924
+247 of 924
+248 of 924
+249 of 924
+250 of 924
+251 of 924
+252 of 924
+253 of 924
+254 of 924
+255 of 924
+256 of 924
+257 of 924
+258 of 924
+259 of 924
+260 of 924
+261 of 924
+262 of 924
+263 of 924
+264 of 924
+265 of 924
+266 of 924
+267 of 924
+268 of 924
+269 of 924
+270 of 924
+271 of 924
+272 of 924
+273 of 924
+274 of 924
+275 of 924
+276 of 924
+277 of 924
+278 of 924
+279 of 924
+280 of 924
+281 of 924
+282 of 924
+283 of 924
+284 of 924
+285 of 924
+286 of 924
+287 of 924
+288 of 924
+289 of 924
+290 of 924
+291 of 924
+292 of 924
+293 of 924
+294 of 924
+295 of 924
+296 of 924
+297 of 924
+298 of 924
+299 of 924
+300 of 924
+301 of 924
+302 of 924
+303 of 924
+304 of 924
+305 of 924
+306 of 924
+307 of 924
+308 of 924
+309 of 924
+310 of 924
+311 of 924
+312 of 924
+313 of 924
+314 of 924
+315 of 924
+316 of 924
+317 of 924
+318 of 924
+319 of 924
+320 of 924
+321 of 924
+322 of 924
+323 of 924
+324 of 924
+325 of 924
+326 of 924
+327 of 924
+328 of 924
+329 of 924
+330 of 924
+331 of 924
+332 of 924
+333 of 924
+334 of 924
+335 of 924
+336 of 924
+337 of 924
+338 of 924
+339 of 924
+340 of 924
+341 of 924
+342 of 924
+343 of 924
+344 of 924
+345 of 924
+346 of 924
+347 of 924
+348 of 924
+349 of 924
+350 of 924
+351 of 924
+352 of 924
+353 of 924
+354 of 924
+355 of 924
+356 of 924
+357 of 924
+358 of 924
+359 of 924
+360 of 924
+361 of 924
+362 of 924
+363 of 924
+364 of 924
+365 of 924
+366 of 924
+367 of 924
+368 of 924
+369 of 924
+370 of 924
+371 of 924
+372 of 924
+373 of 924
+374 of 924
+375 of 924
+376 of 924
+377 of 924
+378 of 924
+379 of 924
+380 of 924
+381 of 924
+382 of 924
+383 of 924
+384 of 924
+385 of 924
+386 of 924
+387 of 924
+388 of 924
+389 of 924
+390 of 924
+391 of 924
+392 of 924
+393 of 924
+394 of 924
+395 of 924
+396 of 924
+397 of 924
+398 of 924
+399 of 924
+400 of 924
+401 of 924
+402 of 924
+403 of 924
+404 of 924
+405 of 924
+406 of 924
+407 of 924
+408 of 924
+409 of 924
+410 of 924
+411 of 924
+412 of 924
+413 of 924
+414 of 924
+415 of 924
+416 of 924
+417 of 924
+418 of 924
+419 of 924
+420 of 924
+421 of 924
+422 of 924
+423 of 924
+424 of 924
+425 of 924
+426 of 924
+427 of 924
+428 of 924
+429 of 924
+430 of 924
+431 of 924
+432 of 924
+433 of 924
+434 of 924
+435 of 924
+436 of 924
+437 of 924
+438 of 924
+439 of 924
+440 of 924
+441 of 924
+442 of 924
+443 of 924
+444 of 924
+445 of 924
+446 of 924
+447 of 924
+448 of 924
+449 of 924
+450 of 924
+451 of 924
+452 of 924
+453 of 924
+454 of 924
+455 of 924
+456 of 924
+457 of 924
+458 of 924
+459 of 924
+460 of 924
+461 of 924
+462 of 924
+463 of 924
+464 of 924
+465 of 924
+466 of 924
+467 of 924
+468 of 924
+469 of 924
+470 of 924
+471 of 924
+472 of 924
+473 of 924
+474 of 924
+475 of 924
+476 of 924
+477 of 924
+478 of 924
+479 of 924
+480 of 924
+481 of 924
+482 of 924
+483 of 924
+484 of 924
+485 of 924
+486 of 924
+487 of 924
+488 of 924
+489 of 924
+490 of 924
+491 of 924
+492 of 924
+493 of 924
+494 of 924
+495 of 924
+496 of 924
+497 of 924
+498 of 924
+499 of 924
+500 of 924
+501 of 924
+502 of 924
+503 of 924
+504 of 924
+505 of 924
+506 of 924
+507 of 924
+508 of 924
+509 of 924
+510 of 924
+511 of 924
+512 of 924
+513 of 924
+514 of 924
+515 of 924
+516 of 924
+517 of 924
+518 of 924
+519 of 924
+520 of 924
+521 of 924
+522 of 924
+523 of 924
+524 of 924
+525 of 924
+526 of 924
+527 of 924
+528 of 924
+529 of 924
+530 of 924
+531 of 924
+532 of 924
+533 of 924
+534 of 924
+535 of 924
+536 of 924
+537 of 924
+538 of 924
+539 of 924
+540 of 924
+541 of 924
+542 of 924
+543 of 924
+544 of 924
+545 of 924
+546 of 924
+547 of 924
+548 of 924
+549 of 924
+550 of 924
+551 of 924
+552 of 924
+553 of 924
+554 of 924
+555 of 924
+556 of 924
+557 of 924
+558 of 924
+559 of 924
+560 of 924
+561 of 924
+562 of 924
+563 of 924
+564 of 924
+565 of 924
+566 of 924
+567 of 924
+568 of 924
+569 of 924
+570 of 924
+571 of 924
+572 of 924
+573 of 924
+574 of 924
+575 of 924
+576 of 924
+577 of 924
+578 of 924
+579 of 924
+580 of 924
+581 of 924
+582 of 924
+583 of 924
+584 of 924
+585 of 924
+586 of 924
+587 of 924
+588 of 924
+589 of 924
+590 of 924
+591 of 924
+592 of 924
+593 of 924
+594 of 924
+595 of 924
+596 of 924
+597 of 924
+598 of 924
+599 of 924
+600 of 924
+601 of 924
+602 of 924
+603 of 924
+604 of 924
+605 of 924
+606 of 924
+607 of 924
+608 of 924
+609 of 924
+610 of 924
+611 of 924
+612 of 924
+613 of 924
+614 of 924
+615 of 924
+616 of 924
+617 of 924
+618 of 924
+619 of 924
+620 of 924
+621 of 924
+622 of 924
+623 of 924
+624 of 924
+625 of 924
+626 of 924
+627 of 924
+628 of 924
+629 of 924
+630 of 924
+631 of 924
+632 of 924
+633 of 924
+634 of 924
+635 of 924
+636 of 924
+637 of 924
+638 of 924
+639 of 924
+640 of 924
+641 of 924
+642 of 924
+643 of 924
+644 of 924
+645 of 924
+646 of 924
+647 of 924
+648 of 924
+649 of 924
+650 of 924
+651 of 924
+652 of 924
+653 of 924
+654 of 924
+655 of 924
+656 of 924
+657 of 924
+658 of 924
+659 of 924
+660 of 924
+661 of 924
+662 of 924
+663 of 924
+664 of 924
+665 of 924
+666 of 924
+667 of 924
+668 of 924
+669 of 924
+670 of 924
+671 of 924
+672 of 924
+673 of 924
+674 of 924
+675 of 924
+676 of 924
+677 of 924
+678 of 924
+679 of 924
+680 of 924
+681 of 924
+682 of 924
+683 of 924
+684 of 924
+685 of 924
+686 of 924
+687 of 924
+688 of 924
+689 of 924
+690 of 924
+691 of 924
+692 of 924
+693 of 924
+694 of 924
+695 of 924
+696 of 924
+697 of 924
+698 of 924
+699 of 924
+700 of 924
+701 of 924
+702 of 924
+703 of 924
+704 of 924
+705 of 924
+706 of 924
+707 of 924
+708 of 924
+709 of 924
+710 of 924
+711 of 924
+712 of 924
+713 of 924
+714 of 924
+715 of 924
+716 of 924
+717 of 924
+718 of 924
+719 of 924
+720 of 924
+721 of 924
+722 of 924
+723 of 924
+724 of 924
+725 of 924
+726 of 924
+727 of 924
+728 of 924
+729 of 924
+730 of 924
+731 of 924
+732 of 924
+733 of 924
+734 of 924
+735 of 924
+736 of 924
+737 of 924
+738 of 924
+739 of 924
+740 of 924
+741 of 924
+742 of 924
+743 of 924
+744 of 924
+745 of 924
+746 of 924
+747 of 924
+748 of 924
+749 of 924
+750 of 924
+751 of 924
+752 of 924
+753 of 924
+754 of 924
+755 of 924
+756 of 924
+757 of 924
+758 of 924
+759 of 924
+760 of 924
+761 of 924
+762 of 924
+763 of 924
+764 of 924
+765 of 924
+766 of 924
+767 of 924
+768 of 924
+769 of 924
+770 of 924
+771 of 924
+772 of 924
+773 of 924
+774 of 924
+775 of 924
+776 of 924
+777 of 924
+778 of 924
+779 of 924
+780 of 924
+781 of 924
+782 of 924
+783 of 924
+784 of 924
+785 of 924
+786 of 924
+787 of 924
+788 of 924
+789 of 924
+790 of 924
+791 of 924
+792 of 924
+793 of 924
+794 of 924
+795 of 924
+796 of 924
+797 of 924
+798 of 924
+799 of 924
+800 of 924
+801 of 924
+802 of 924
+803 of 924
+804 of 924
+805 of 924
+806 of 924
+807 of 924
+808 of 924
+809 of 924
+810 of 924
+811 of 924
+812 of 924
+813 of 924
+814 of 924
+815 of 924
+816 of 924
+817 of 924
+818 of 924
+819 of 924
+820 of 924
+821 of 924
+822 of 924
+823 of 924
+824 of 924
+825 of 924
+826 of 924
+827 of 924
+828 of 924
+829 of 924
+830 of 924
+831 of 924
+832 of 924
+833 of 924
+834 of 924
+835 of 924
+836 of 924
+837 of 924
+838 of 924
+839 of 924
+840 of 924
+841 of 924
+842 of 924
+843 of 924
+844 of 924
+845 of 924
+846 of 924
+847 of 924
+848 of 924
+849 of 924
+850 of 924
+851 of 924
+852 of 924
+853 of 924
+854 of 924
+855 of 924
+856 of 924
+857 of 924
+858 of 924
+859 of 924
+860 of 924
+861 of 924
+862 of 924
+863 of 924
+864 of 924
+865 of 924
+866 of 924
+867 of 924
+868 of 924
+869 of 924
+870 of 924
+871 of 924
+872 of 924
+873 of 924
+874 of 924
+875 of 924
+876 of 924
+877 of 924
+878 of 924
+879 of 924
+880 of 924
+881 of 924
+882 of 924
+883 of 924
+884 of 924
+885 of 924
+886 of 924
+887 of 924
+888 of 924
+889 of 924
+890 of 924
+891 of 924
+892 of 924
+893 of 924
+894 of 924
+895 of 924
+896 of 924
+897 of 924
+898 of 924
+899 of 924
+900 of 924
+901 of 924
+902 of 924
+903 of 924
+904 of 924
+905 of 924
+906 of 924
+907 of 924
+908 of 924
+909 of 924
+910 of 924
+911 of 924
+912 of 924
+913 of 924
+914 of 924
+915 of 924
+916 of 924
+917 of 924
+918 of 924
+919 of 924
+920 of 924
+921 of 924
+922 of 924
+923 of 924
+924 of 924
+-----------------------------------------------
+Forest accuracy = 98.16% <- 907/924
+-----------------------------------------------
+End Analysing!!!

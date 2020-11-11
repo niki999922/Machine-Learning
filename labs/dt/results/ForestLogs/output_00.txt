@@ -1,0 +1,40 @@
+open on read fileName: "00_train"
+open on read fileName: "00_test"
+teaching tree
+teaching id: 1, train size: 3 | feature 2: 0 1 
+teaching id: 2, train size: 2 | feature 2: 0 1 | create leaf
+teaching id: 3, train size: 1 | feature 2: 0 1 | create leaf
+teaching tree
+teaching id: 1, train size: 3 | feature 2: 0 1 
+teaching id: 2, train size: 1 | feature 2: 0 1 | create leaf
+teaching id: 3, train size: 2 | feature 2: 0 1 | create leaf
+teaching tree
+teaching id: 1, train size: 3 | feature 2: 0 1 
+teaching id: 2, train size: 2 | feature 2: 0 1 | create leaf
+teaching id: 3, train size: 1 | feature 2: 0 1 | create leaf
+teaching tree
+teaching id: 1, train size: 3 | feature 2: 0 1 
+teaching id: 2, train size: 1 | feature 2: 0 1 | create leaf
+teaching id: 3, train size: 2 | feature 2: 0 1 | create leaf
+teaching tree
+teaching id: 1, train size: 3 | feature 2: 0 1 
+teaching id: 2, train size: 1 | feature 2: 0 1 | create leaf
+teaching id: 3, train size: 2 | feature 2: 0 1 | create leaf
+teaching tree
+teaching id: 1, train size: 3 | feature 2: 0 1 
+teaching id: 2, train size: 2 | feature 2: 0 1 | create leaf
+teaching id: 3, train size: 1 | feature 2: 0 1 | create leaf
+1 of 10
+2 of 10
+3 of 10
+4 of 10
+5 of 10
+6 of 10
+7 of 10
+8 of 10
+9 of 10
+10 of 10
+-----------------------------------------------
+Forest accuracy = 70.00% <- 7/10
+-----------------------------------------------
+End Analysing!!!

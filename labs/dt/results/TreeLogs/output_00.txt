@@ -1,0 +1,40 @@
+open on read fileName: "00_train"
+open on read fileName: "00_test"
+teaching tree
+teaching id: 1, train size: 8 | feature 2: 0 1 
+teaching id: 2, train size: 4 | feature 2: 0 1 
+teaching id: 3, train size: 2 | create leaf
+teaching id: 4, train size: 2 | create leaf
+teaching id: 5, train size: 4 | feature 2: 0 1 
+teaching id: 6, train size: 2 | create leaf
+teaching id: 7, train size: 2 | create leaf
+1 of 2
+2 of 2
+Found better accuracy = 1.0 > 0 for h = 2
+accuracy = 100.00% <- 2/2
+teaching tree
+teaching id: 1, train size: 8 | feature 2: 0 1 
+teaching id: 2, train size: 4 | feature 2: 0 1 
+teaching id: 3, train size: 2 | feature 2: 0 1 | create leaf
+teaching id: 4, train size: 2 | feature 2: 0 1 | create leaf
+teaching id: 5, train size: 4 | feature 2: 0 1 
+teaching id: 6, train size: 2 | feature 2: 0 1 | create leaf
+teaching id: 7, train size: 2 | feature 2: 0 1 | create leaf
+1 of 2
+2 of 2
+accuracy = 100.00% <- 2/2
+teaching tree
+teaching id: 1, train size: 8 | feature 2: 0 1 
+teaching id: 2, train size: 4 | feature 2: 0 1 
+teaching id: 3, train size: 2 | feature 2: 0 1 | create leaf
+teaching id: 4, train size: 2 | feature 2: 0 1 | create leaf
+teaching id: 5, train size: 4 | feature 2: 0 1 
+teaching id: 6, train size: 2 | feature 2: 0 1 | create leaf
+teaching id: 7, train size: 2 | feature 2: 0 1 | create leaf
+1 of 2
+2 of 2
+accuracy = 100.00% <- 2/2
+-----------------------------------------------
+Best h = 2 <-> accuracy = 100.00%
+-----------------------------------------------
+End Analysing!!!

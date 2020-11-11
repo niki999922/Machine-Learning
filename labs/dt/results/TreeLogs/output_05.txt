@@ -1,0 +1,1592 @@
+open on read fileName: "05_train"
+open on read fileName: "05_test"
+teaching tree
+teaching id: 1, train size: 462 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 2, train size: 34 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 3, train size: 1 | create leaf
+teaching id: 4, train size: 33 | create leaf
+teaching id: 5, train size: 428 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 6, train size: 321 | create leaf
+teaching id: 7, train size: 107 | create leaf
+1 of 462
+2 of 462
+3 of 462
+4 of 462
+5 of 462
+6 of 462
+7 of 462
+8 of 462
+9 of 462
+10 of 462
+11 of 462
+12 of 462
+13 of 462
+14 of 462
+15 of 462
+16 of 462
+17 of 462
+18 of 462
+19 of 462
+20 of 462
+21 of 462
+22 of 462
+23 of 462
+24 of 462
+25 of 462
+26 of 462
+27 of 462
+28 of 462
+29 of 462
+30 of 462
+31 of 462
+32 of 462
+33 of 462
+34 of 462
+35 of 462
+36 of 462
+37 of 462
+38 of 462
+39 of 462
+40 of 462
+41 of 462
+42 of 462
+43 of 462
+44 of 462
+45 of 462
+46 of 462
+47 of 462
+48 of 462
+49 of 462
+50 of 462
+51 of 462
+52 of 462
+53 of 462
+54 of 462
+55 of 462
+56 of 462
+57 of 462
+58 of 462
+59 of 462
+60 of 462
+61 of 462
+62 of 462
+63 of 462
+64 of 462
+65 of 462
+66 of 462
+67 of 462
+68 of 462
+69 of 462
+70 of 462
+71 of 462
+72 of 462
+73 of 462
+74 of 462
+75 of 462
+76 of 462
+77 of 462
+78 of 462
+79 of 462
+80 of 462
+81 of 462
+82 of 462
+83 of 462
+84 of 462
+85 of 462
+86 of 462
+87 of 462
+88 of 462
+89 of 462
+90 of 462
+91 of 462
+92 of 462
+93 of 462
+94 of 462
+95 of 462
+96 of 462
+97 of 462
+98 of 462
+99 of 462
+100 of 462
+101 of 462
+102 of 462
+103 of 462
+104 of 462
+105 of 462
+106 of 462
+107 of 462
+108 of 462
+109 of 462
+110 of 462
+111 of 462
+112 of 462
+113 of 462
+114 of 462
+115 of 462
+116 of 462
+117 of 462
+118 of 462
+119 of 462
+120 of 462
+121 of 462
+122 of 462
+123 of 462
+124 of 462
+125 of 462
+126 of 462
+127 of 462
+128 of 462
+129 of 462
+130 of 462
+131 of 462
+132 of 462
+133 of 462
+134 of 462
+135 of 462
+136 of 462
+137 of 462
+138 of 462
+139 of 462
+140 of 462
+141 of 462
+142 of 462
+143 of 462
+144 of 462
+145 of 462
+146 of 462
+147 of 462
+148 of 462
+149 of 462
+150 of 462
+151 of 462
+152 of 462
+153 of 462
+154 of 462
+155 of 462
+156 of 462
+157 of 462
+158 of 462
+159 of 462
+160 of 462
+161 of 462
+162 of 462
+163 of 462
+164 of 462
+165 of 462
+166 of 462
+167 of 462
+168 of 462
+169 of 462
+170 of 462
+171 of 462
+172 of 462
+173 of 462
+174 of 462
+175 of 462
+176 of 462
+177 of 462
+178 of 462
+179 of 462
+180 of 462
+181 of 462
+182 of 462
+183 of 462
+184 of 462
+185 of 462
+186 of 462
+187 of 462
+188 of 462
+189 of 462
+190 of 462
+191 of 462
+192 of 462
+193 of 462
+194 of 462
+195 of 462
+196 of 462
+197 of 462
+198 of 462
+199 of 462
+200 of 462
+201 of 462
+202 of 462
+203 of 462
+204 of 462
+205 of 462
+206 of 462
+207 of 462
+208 of 462
+209 of 462
+210 of 462
+211 of 462
+212 of 462
+213 of 462
+214 of 462
+215 of 462
+216 of 462
+217 of 462
+218 of 462
+219 of 462
+220 of 462
+221 of 462
+222 of 462
+223 of 462
+224 of 462
+225 of 462
+226 of 462
+227 of 462
+228 of 462
+229 of 462
+230 of 462
+231 of 462
+232 of 462
+233 of 462
+234 of 462
+235 of 462
+236 of 462
+237 of 462
+238 of 462
+239 of 462
+240 of 462
+241 of 462
+242 of 462
+243 of 462
+244 of 462
+245 of 462
+246 of 462
+247 of 462
+248 of 462
+249 of 462
+250 of 462
+251 of 462
+252 of 462
+253 of 462
+254 of 462
+255 of 462
+256 of 462
+257 of 462
+258 of 462
+259 of 462
+260 of 462
+261 of 462
+262 of 462
+263 of 462
+264 of 462
+265 of 462
+266 of 462
+267 of 462
+268 of 462
+269 of 462
+270 of 462
+271 of 462
+272 of 462
+273 of 462
+274 of 462
+275 of 462
+276 of 462
+277 of 462
+278 of 462
+279 of 462
+280 of 462
+281 of 462
+282 of 462
+283 of 462
+284 of 462
+285 of 462
+286 of 462
+287 of 462
+288 of 462
+289 of 462
+290 of 462
+291 of 462
+292 of 462
+293 of 462
+294 of 462
+295 of 462
+296 of 462
+297 of 462
+298 of 462
+299 of 462
+300 of 462
+301 of 462
+302 of 462
+303 of 462
+304 of 462
+305 of 462
+306 of 462
+307 of 462
+308 of 462
+309 of 462
+310 of 462
+311 of 462
+312 of 462
+313 of 462
+314 of 462
+315 of 462
+316 of 462
+317 of 462
+318 of 462
+319 of 462
+320 of 462
+321 of 462
+322 of 462
+323 of 462
+324 of 462
+325 of 462
+326 of 462
+327 of 462
+328 of 462
+329 of 462
+330 of 462
+331 of 462
+332 of 462
+333 of 462
+334 of 462
+335 of 462
+336 of 462
+337 of 462
+338 of 462
+339 of 462
+340 of 462
+341 of 462
+342 of 462
+343 of 462
+344 of 462
+345 of 462
+346 of 462
+347 of 462
+348 of 462
+349 of 462
+350 of 462
+351 of 462
+352 of 462
+353 of 462
+354 of 462
+355 of 462
+356 of 462
+357 of 462
+358 of 462
+359 of 462
+360 of 462
+361 of 462
+362 of 462
+363 of 462
+364 of 462
+365 of 462
+366 of 462
+367 of 462
+368 of 462
+369 of 462
+370 of 462
+371 of 462
+372 of 462
+373 of 462
+374 of 462
+375 of 462
+376 of 462
+377 of 462
+378 of 462
+379 of 462
+380 of 462
+381 of 462
+382 of 462
+383 of 462
+384 of 462
+385 of 462
+386 of 462
+387 of 462
+388 of 462
+389 of 462
+390 of 462
+391 of 462
+392 of 462
+393 of 462
+394 of 462
+395 of 462
+396 of 462
+397 of 462
+398 of 462
+399 of 462
+400 of 462
+401 of 462
+402 of 462
+403 of 462
+404 of 462
+405 of 462
+406 of 462
+407 of 462
+408 of 462
+409 of 462
+410 of 462
+411 of 462
+412 of 462
+413 of 462
+414 of 462
+415 of 462
+416 of 462
+417 of 462
+418 of 462
+419 of 462
+420 of 462
+421 of 462
+422 of 462
+423 of 462
+424 of 462
+425 of 462
+426 of 462
+427 of 462
+428 of 462
+429 of 462
+430 of 462
+431 of 462
+432 of 462
+433 of 462
+434 of 462
+435 of 462
+436 of 462
+437 of 462
+438 of 462
+439 of 462
+440 of 462
+441 of 462
+442 of 462
+443 of 462
+444 of 462
+445 of 462
+446 of 462
+447 of 462
+448 of 462
+449 of 462
+450 of 462
+451 of 462
+452 of 462
+453 of 462
+454 of 462
+455 of 462
+456 of 462
+457 of 462
+458 of 462
+459 of 462
+460 of 462
+461 of 462
+462 of 462
+Found better accuracy = 0.9848484848484849 > 0 for h = 2
+accuracy = 98.48% <- 455/462
+teaching tree
+teaching id: 1, train size: 462 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 2, train size: 34 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 3, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 4, train size: 33 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 5, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 6, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 7, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 8, train size: 28 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 9, train size: 428 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 10, train size: 321 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 11, train size: 126 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 12, train size: 125 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 13, train size: 124 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 14, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 15, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 16, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 17, train size: 120 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 18, train size: 23 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 19, train size: 22 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 20, train size: 17 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 21, train size: 12 | create leaf
+teaching id: 22, train size: 5 | create leaf
+teaching id: 23, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 24, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 25, train size: 97 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 26, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 27, train size: 96 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 28, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 29, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 30, train size: 195 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 31, train size: 8 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 32, train size: 7 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 33, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 34, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 35, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 36, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 37, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 38, train size: 187 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 39, train size: 87 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 40, train size: 81 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 41, train size: 57 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 42, train size: 26 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 43, train size: 19 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 44, train size: 11 | create leaf
+teaching id: 45, train size: 8 | create leaf
+teaching id: 46, train size: 7 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 47, train size: 31 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 48, train size: 24 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 49, train size: 6 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 50, train size: 100 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 51, train size: 107 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 52, train size: 8 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 53, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 54, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 55, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 56, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 57, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 58, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 59, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 60, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 61, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 62, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 63, train size: 99 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 64, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 65, train size: 98 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 66, train size: 97 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 67, train size: 47 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 68, train size: 41 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 69, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 70, train size: 40 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 71, train size: 6 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 72, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 73, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 74, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 75, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 76, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 77, train size: 1 | create leaf
+teaching id: 78, train size: 1 | create leaf
+teaching id: 79, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 80, train size: 50 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 81, train size: 47 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 82, train size: 36 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 83, train size: 21 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 84, train size: 5 | create leaf
+teaching id: 85, train size: 16 | create leaf
+teaching id: 86, train size: 15 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 87, train size: 11 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 88, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 89, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+1 of 462
+2 of 462
+3 of 462
+4 of 462
+5 of 462
+6 of 462
+7 of 462
+8 of 462
+9 of 462
+10 of 462
+11 of 462
+12 of 462
+13 of 462
+14 of 462
+15 of 462
+16 of 462
+17 of 462
+18 of 462
+19 of 462
+20 of 462
+21 of 462
+22 of 462
+23 of 462
+24 of 462
+25 of 462
+26 of 462
+27 of 462
+28 of 462
+29 of 462
+30 of 462
+31 of 462
+32 of 462
+33 of 462
+34 of 462
+35 of 462
+36 of 462
+37 of 462
+38 of 462
+39 of 462
+40 of 462
+41 of 462
+42 of 462
+43 of 462
+44 of 462
+45 of 462
+46 of 462
+47 of 462
+48 of 462
+49 of 462
+50 of 462
+51 of 462
+52 of 462
+53 of 462
+54 of 462
+55 of 462
+56 of 462
+57 of 462
+58 of 462
+59 of 462
+60 of 462
+61 of 462
+62 of 462
+63 of 462
+64 of 462
+65 of 462
+66 of 462
+67 of 462
+68 of 462
+69 of 462
+70 of 462
+71 of 462
+72 of 462
+73 of 462
+74 of 462
+75 of 462
+76 of 462
+77 of 462
+78 of 462
+79 of 462
+80 of 462
+81 of 462
+82 of 462
+83 of 462
+84 of 462
+85 of 462
+86 of 462
+87 of 462
+88 of 462
+89 of 462
+90 of 462
+91 of 462
+92 of 462
+93 of 462
+94 of 462
+95 of 462
+96 of 462
+97 of 462
+98 of 462
+99 of 462
+100 of 462
+101 of 462
+102 of 462
+103 of 462
+104 of 462
+105 of 462
+106 of 462
+107 of 462
+108 of 462
+109 of 462
+110 of 462
+111 of 462
+112 of 462
+113 of 462
+114 of 462
+115 of 462
+116 of 462
+117 of 462
+118 of 462
+119 of 462
+120 of 462
+121 of 462
+122 of 462
+123 of 462
+124 of 462
+125 of 462
+126 of 462
+127 of 462
+128 of 462
+129 of 462
+130 of 462
+131 of 462
+132 of 462
+133 of 462
+134 of 462
+135 of 462
+136 of 462
+137 of 462
+138 of 462
+139 of 462
+140 of 462
+141 of 462
+142 of 462
+143 of 462
+144 of 462
+145 of 462
+146 of 462
+147 of 462
+148 of 462
+149 of 462
+150 of 462
+151 of 462
+152 of 462
+153 of 462
+154 of 462
+155 of 462
+156 of 462
+157 of 462
+158 of 462
+159 of 462
+160 of 462
+161 of 462
+162 of 462
+163 of 462
+164 of 462
+165 of 462
+166 of 462
+167 of 462
+168 of 462
+169 of 462
+170 of 462
+171 of 462
+172 of 462
+173 of 462
+174 of 462
+175 of 462
+176 of 462
+177 of 462
+178 of 462
+179 of 462
+180 of 462
+181 of 462
+182 of 462
+183 of 462
+184 of 462
+185 of 462
+186 of 462
+187 of 462
+188 of 462
+189 of 462
+190 of 462
+191 of 462
+192 of 462
+193 of 462
+194 of 462
+195 of 462
+196 of 462
+197 of 462
+198 of 462
+199 of 462
+200 of 462
+201 of 462
+202 of 462
+203 of 462
+204 of 462
+205 of 462
+206 of 462
+207 of 462
+208 of 462
+209 of 462
+210 of 462
+211 of 462
+212 of 462
+213 of 462
+214 of 462
+215 of 462
+216 of 462
+217 of 462
+218 of 462
+219 of 462
+220 of 462
+221 of 462
+222 of 462
+223 of 462
+224 of 462
+225 of 462
+226 of 462
+227 of 462
+228 of 462
+229 of 462
+230 of 462
+231 of 462
+232 of 462
+233 of 462
+234 of 462
+235 of 462
+236 of 462
+237 of 462
+238 of 462
+239 of 462
+240 of 462
+241 of 462
+242 of 462
+243 of 462
+244 of 462
+245 of 462
+246 of 462
+247 of 462
+248 of 462
+249 of 462
+250 of 462
+251 of 462
+252 of 462
+253 of 462
+254 of 462
+255 of 462
+256 of 462
+257 of 462
+258 of 462
+259 of 462
+260 of 462
+261 of 462
+262 of 462
+263 of 462
+264 of 462
+265 of 462
+266 of 462
+267 of 462
+268 of 462
+269 of 462
+270 of 462
+271 of 462
+272 of 462
+273 of 462
+274 of 462
+275 of 462
+276 of 462
+277 of 462
+278 of 462
+279 of 462
+280 of 462
+281 of 462
+282 of 462
+283 of 462
+284 of 462
+285 of 462
+286 of 462
+287 of 462
+288 of 462
+289 of 462
+290 of 462
+291 of 462
+292 of 462
+293 of 462
+294 of 462
+295 of 462
+296 of 462
+297 of 462
+298 of 462
+299 of 462
+300 of 462
+301 of 462
+302 of 462
+303 of 462
+304 of 462
+305 of 462
+306 of 462
+307 of 462
+308 of 462
+309 of 462
+310 of 462
+311 of 462
+312 of 462
+313 of 462
+314 of 462
+315 of 462
+316 of 462
+317 of 462
+318 of 462
+319 of 462
+320 of 462
+321 of 462
+322 of 462
+323 of 462
+324 of 462
+325 of 462
+326 of 462
+327 of 462
+328 of 462
+329 of 462
+330 of 462
+331 of 462
+332 of 462
+333 of 462
+334 of 462
+335 of 462
+336 of 462
+337 of 462
+338 of 462
+339 of 462
+340 of 462
+341 of 462
+342 of 462
+343 of 462
+344 of 462
+345 of 462
+346 of 462
+347 of 462
+348 of 462
+349 of 462
+350 of 462
+351 of 462
+352 of 462
+353 of 462
+354 of 462
+355 of 462
+356 of 462
+357 of 462
+358 of 462
+359 of 462
+360 of 462
+361 of 462
+362 of 462
+363 of 462
+364 of 462
+365 of 462
+366 of 462
+367 of 462
+368 of 462
+369 of 462
+370 of 462
+371 of 462
+372 of 462
+373 of 462
+374 of 462
+375 of 462
+376 of 462
+377 of 462
+378 of 462
+379 of 462
+380 of 462
+381 of 462
+382 of 462
+383 of 462
+384 of 462
+385 of 462
+386 of 462
+387 of 462
+388 of 462
+389 of 462
+390 of 462
+391 of 462
+392 of 462
+393 of 462
+394 of 462
+395 of 462
+396 of 462
+397 of 462
+398 of 462
+399 of 462
+400 of 462
+401 of 462
+402 of 462
+403 of 462
+404 of 462
+405 of 462
+406 of 462
+407 of 462
+408 of 462
+409 of 462
+410 of 462
+411 of 462
+412 of 462
+413 of 462
+414 of 462
+415 of 462
+416 of 462
+417 of 462
+418 of 462
+419 of 462
+420 of 462
+421 of 462
+422 of 462
+423 of 462
+424 of 462
+425 of 462
+426 of 462
+427 of 462
+428 of 462
+429 of 462
+430 of 462
+431 of 462
+432 of 462
+433 of 462
+434 of 462
+435 of 462
+436 of 462
+437 of 462
+438 of 462
+439 of 462
+440 of 462
+441 of 462
+442 of 462
+443 of 462
+444 of 462
+445 of 462
+446 of 462
+447 of 462
+448 of 462
+449 of 462
+450 of 462
+451 of 462
+452 of 462
+453 of 462
+454 of 462
+455 of 462
+456 of 462
+457 of 462
+458 of 462
+459 of 462
+460 of 462
+461 of 462
+462 of 462
+accuracy = 95.89% <- 443/462
+teaching tree
+teaching id: 1, train size: 462 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 2, train size: 34 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 3, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 4, train size: 33 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 5, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 6, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 7, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 8, train size: 28 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 9, train size: 428 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 10, train size: 321 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 11, train size: 126 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 12, train size: 125 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 13, train size: 124 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 14, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 15, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 16, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 17, train size: 120 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 18, train size: 23 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 19, train size: 22 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 20, train size: 17 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 21, train size: 12 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 22, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 23, train size: 9 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 24, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 25, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 26, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 27, train size: 97 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 28, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 29, train size: 96 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 30, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 31, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 32, train size: 195 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 33, train size: 8 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 34, train size: 7 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 35, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 36, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 37, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 38, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 39, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 40, train size: 187 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 41, train size: 87 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 42, train size: 81 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 43, train size: 57 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 44, train size: 26 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 45, train size: 19 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 46, train size: 11 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 47, train size: 8 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 48, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 49, train size: 7 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 50, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 51, train size: 8 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 52, train size: 7 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 53, train size: 31 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 54, train size: 24 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 55, train size: 6 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 56, train size: 100 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 57, train size: 107 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 58, train size: 8 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 59, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 60, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 61, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 62, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 63, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 64, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 65, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 66, train size: 4 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 67, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 68, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 69, train size: 99 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 70, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 71, train size: 98 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 72, train size: 97 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 73, train size: 47 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 74, train size: 41 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 75, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 76, train size: 40 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 77, train size: 6 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 78, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 79, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 80, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 81, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 82, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 83, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 84, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 85, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 86, train size: 50 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 87, train size: 47 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 88, train size: 36 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 89, train size: 21 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 90, train size: 5 | feature 10: 0 1 2 3 4 5 6 7 8 9 
+teaching id: 91, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 92, train size: 2 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 93, train size: 16 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 94, train size: 15 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 95, train size: 11 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 96, train size: 3 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+teaching id: 97, train size: 1 | feature 10: 0 1 2 3 4 5 6 7 8 9 | create leaf
+1 of 462
+2 of 462
+3 of 462
+4 of 462
+5 of 462
+6 of 462
+7 of 462
+8 of 462
+9 of 462
+10 of 462
+11 of 462
+12 of 462
+13 of 462
+14 of 462
+15 of 462
+16 of 462
+17 of 462
+18 of 462
+19 of 462
+20 of 462
+21 of 462
+22 of 462
+23 of 462
+24 of 462
+25 of 462
+26 of 462
+27 of 462
+28 of 462
+29 of 462
+30 of 462
+31 of 462
+32 of 462
+33 of 462
+34 of 462
+35 of 462
+36 of 462
+37 of 462
+38 of 462
+39 of 462
+40 of 462
+41 of 462
+42 of 462
+43 of 462
+44 of 462
+45 of 462
+46 of 462
+47 of 462
+48 of 462
+49 of 462
+50 of 462
+51 of 462
+52 of 462
+53 of 462
+54 of 462
+55 of 462
+56 of 462
+57 of 462
+58 of 462
+59 of 462
+60 of 462
+61 of 462
+62 of 462
+63 of 462
+64 of 462
+65 of 462
+66 of 462
+67 of 462
+68 of 462
+69 of 462
+70 of 462
+71 of 462
+72 of 462
+73 of 462
+74 of 462
+75 of 462
+76 of 462
+77 of 462
+78 of 462
+79 of 462
+80 of 462
+81 of 462
+82 of 462
+83 of 462
+84 of 462
+85 of 462
+86 of 462
+87 of 462
+88 of 462
+89 of 462
+90 of 462
+91 of 462
+92 of 462
+93 of 462
+94 of 462
+95 of 462
+96 of 462
+97 of 462
+98 of 462
+99 of 462
+100 of 462
+101 of 462
+102 of 462
+103 of 462
+104 of 462
+105 of 462
+106 of 462
+107 of 462
+108 of 462
+109 of 462
+110 of 462
+111 of 462
+112 of 462
+113 of 462
+114 of 462
+115 of 462
+116 of 462
+117 of 462
+118 of 462
+119 of 462
+120 of 462
+121 of 462
+122 of 462
+123 of 462
+124 of 462
+125 of 462
+126 of 462
+127 of 462
+128 of 462
+129 of 462
+130 of 462
+131 of 462
+132 of 462
+133 of 462
+134 of 462
+135 of 462
+136 of 462
+137 of 462
+138 of 462
+139 of 462
+140 of 462
+141 of 462
+142 of 462
+143 of 462
+144 of 462
+145 of 462
+146 of 462
+147 of 462
+148 of 462
+149 of 462
+150 of 462
+151 of 462
+152 of 462
+153 of 462
+154 of 462
+155 of 462
+156 of 462
+157 of 462
+158 of 462
+159 of 462
+160 of 462
+161 of 462
+162 of 462
+163 of 462
+164 of 462
+165 of 462
+166 of 462
+167 of 462
+168 of 462
+169 of 462
+170 of 462
+171 of 462
+172 of 462
+173 of 462
+174 of 462
+175 of 462
+176 of 462
+177 of 462
+178 of 462
+179 of 462
+180 of 462
+181 of 462
+182 of 462
+183 of 462
+184 of 462
+185 of 462
+186 of 462
+187 of 462
+188 of 462
+189 of 462
+190 of 462
+191 of 462
+192 of 462
+193 of 462
+194 of 462
+195 of 462
+196 of 462
+197 of 462
+198 of 462
+199 of 462
+200 of 462
+201 of 462
+202 of 462
+203 of 462
+204 of 462
+205 of 462
+206 of 462
+207 of 462
+208 of 462
+209 of 462
+210 of 462
+211 of 462
+212 of 462
+213 of 462
+214 of 462
+215 of 462
+216 of 462
+217 of 462
+218 of 462
+219 of 462
+220 of 462
+221 of 462
+222 of 462
+223 of 462
+224 of 462
+225 of 462
+226 of 462
+227 of 462
+228 of 462
+229 of 462
+230 of 462
+231 of 462
+232 of 462
+233 of 462
+234 of 462
+235 of 462
+236 of 462
+237 of 462
+238 of 462
+239 of 462
+240 of 462
+241 of 462
+242 of 462
+243 of 462
+244 of 462
+245 of 462
+246 of 462
+247 of 462
+248 of 462
+249 of 462
+250 of 462
+251 of 462
+252 of 462
+253 of 462
+254 of 462
+255 of 462
+256 of 462
+257 of 462
+258 of 462
+259 of 462
+260 of 462
+261 of 462
+262 of 462
+263 of 462
+264 of 462
+265 of 462
+266 of 462
+267 of 462
+268 of 462
+269 of 462
+270 of 462
+271 of 462
+272 of 462
+273 of 462
+274 of 462
+275 of 462
+276 of 462
+277 of 462
+278 of 462
+279 of 462
+280 of 462
+281 of 462
+282 of 462
+283 of 462
+284 of 462
+285 of 462
+286 of 462
+287 of 462
+288 of 462
+289 of 462
+290 of 462
+291 of 462
+292 of 462
+293 of 462
+294 of 462
+295 of 462
+296 of 462
+297 of 462
+298 of 462
+299 of 462
+300 of 462
+301 of 462
+302 of 462
+303 of 462
+304 of 462
+305 of 462
+306 of 462
+307 of 462
+308 of 462
+309 of 462
+310 of 462
+311 of 462
+312 of 462
+313 of 462
+314 of 462
+315 of 462
+316 of 462
+317 of 462
+318 of 462
+319 of 462
+320 of 462
+321 of 462
+322 of 462
+323 of 462
+324 of 462
+325 of 462
+326 of 462
+327 of 462
+328 of 462
+329 of 462
+330 of 462
+331 of 462
+332 of 462
+333 of 462
+334 of 462
+335 of 462
+336 of 462
+337 of 462
+338 of 462
+339 of 462
+340 of 462
+341 of 462
+342 of 462
+343 of 462
+344 of 462
+345 of 462
+346 of 462
+347 of 462
+348 of 462
+349 of 462
+350 of 462
+351 of 462
+352 of 462
+353 of 462
+354 of 462
+355 of 462
+356 of 462
+357 of 462
+358 of 462
+359 of 462
+360 of 462
+361 of 462
+362 of 462
+363 of 462
+364 of 462
+365 of 462
+366 of 462
+367 of 462
+368 of 462
+369 of 462
+370 of 462
+371 of 462
+372 of 462
+373 of 462
+374 of 462
+375 of 462
+376 of 462
+377 of 462
+378 of 462
+379 of 462
+380 of 462
+381 of 462
+382 of 462
+383 of 462
+384 of 462
+385 of 462
+386 of 462
+387 of 462
+388 of 462
+389 of 462
+390 of 462
+391 of 462
+392 of 462
+393 of 462
+394 of 462
+395 of 462
+396 of 462
+397 of 462
+398 of 462
+399 of 462
+400 of 462
+401 of 462
+402 of 462
+403 of 462
+404 of 462
+405 of 462
+406 of 462
+407 of 462
+408 of 462
+409 of 462
+410 of 462
+411 of 462
+412 of 462
+413 of 462
+414 of 462
+415 of 462
+416 of 462
+417 of 462
+418 of 462
+419 of 462
+420 of 462
+421 of 462
+422 of 462
+423 of 462
+424 of 462
+425 of 462
+426 of 462
+427 of 462
+428 of 462
+429 of 462
+430 of 462
+431 of 462
+432 of 462
+433 of 462
+434 of 462
+435 of 462
+436 of 462
+437 of 462
+438 of 462
+439 of 462
+440 of 462
+441 of 462
+442 of 462
+443 of 462
+444 of 462
+445 of 462
+446 of 462
+447 of 462
+448 of 462
+449 of 462
+450 of 462
+451 of 462
+452 of 462
+453 of 462
+454 of 462
+455 of 462
+456 of 462
+457 of 462
+458 of 462
+459 of 462
+460 of 462
+461 of 462
+462 of 462
+accuracy = 95.89% <- 443/462
+-----------------------------------------------
+Best h = 2 <-> accuracy = 98.48%
+-----------------------------------------------
+End Analysing!!!
