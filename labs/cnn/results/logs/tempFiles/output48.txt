@@ -1,0 +1,27 @@
+Start
+2020-12-16 23:59:10.868888
+Learning rate: 1
+Batch size: 256
+Total epoch: 20
+Avg seconds spent on each epoch: 80 sec
+Until the end: 26 min, 48 sec
+accuracy on 1/20 epoch: 0.9492999911308289
+accuracy on 2/20 epoch: 0.9713000059127808
+accuracy on 3/20 epoch: 0.9702000021934509
+accuracy on 4/20 epoch: 0.9699000120162964
+accuracy on 5/20 epoch: 0.8651000261306763
+accuracy on 6/20 epoch: 0.9502999782562256
+accuracy on 7/20 epoch: 0.8680999875068665
+accuracy on 8/20 epoch: 0.41519999504089355
+accuracy on 9/20 epoch: 0.09149999916553497
+accuracy on 10/20 epoch: 0.0940999984741211
+accuracy on 11/20 epoch: 0.0940999984741211
+accuracy on 12/20 epoch: 0.0940999984741211
+accuracy on 13/20 epoch: 0.0940999984741211
+accuracy on 14/20 epoch: 0.0940999984741211
+accuracy on 15/20 epoch: 0.0940999984741211
+accuracy on 16/20 epoch: 0.0940999984741211
+accuracy on 17/20 epoch: 0.0940999984741211
+accuracy on 18/20 epoch: 0.0940999984741211
+accuracy on 19/20 epoch: 0.0940999984741211
+accuracy on 20/20 epoch: 0.0940999984741211

@@ -1,0 +1,173 @@
+Start
+2020-12-17 06:16:05.384164
+Learning rate: 0.1
+Batch size: 128
+Total epoch: 20
+Avg seconds spent on each epoch: 19 sec
+Until the end: 5 min, 56 sec
+accuracy on 1/20 epoch: 0.8281000256538391
+accuracy on 2/20 epoch: 0.9104999899864197
+accuracy on 3/20 epoch: 0.9585999846458435
+accuracy on 4/20 epoch: 0.9660000205039978
+accuracy on 5/20 epoch: 0.9731000065803528
+accuracy on 6/20 epoch: 0.9726999998092651
+accuracy on 7/20 epoch: 0.9781000018119812
+accuracy on 8/20 epoch: 0.9800000190734863
+accuracy on 9/20 epoch: 0.9797999858856201
+accuracy on 10/20 epoch: 0.9830999970436096
+accuracy on 11/20 epoch: 0.9825000166893005
+accuracy on 12/20 epoch: 0.9847000241279602
+accuracy on 13/20 epoch: 0.9830999970436096
+accuracy on 14/20 epoch: 0.9825000166893005
+accuracy on 15/20 epoch: 0.98580002784729
+accuracy on 16/20 epoch: 0.9853000044822693
+accuracy on 17/20 epoch: 0.9854999780654907
+accuracy on 18/20 epoch: 0.9830999970436096
+accuracy on 19/20 epoch: 0.9857000112533569
+accuracy on 20/20 epoch: 0.9865999817848206
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/7/1_pred_|_i0.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/1/2_pred_|_i1.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/3_pred_|_i2.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/3/8_pred_|_i3.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/3_pred_|_i4.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/3_pred_|_i5.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/0_pred_|_i6.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/3/7_pred_|_i7.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/0/6_pred_|_i8.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/4_pred_|_i9.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/5_pred_|_i10.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/4/2_pred_|_i11.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/3_pred_|_i12.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/7_pred_|_i13.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/7_pred_|_i14.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/2_pred_|_i15.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/4_pred_|_i16.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/7/2_pred_|_i17.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/7/2_pred_|_i18.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/0_pred_|_i19.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/2_pred_|_i20.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/7_pred_|_i21.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/5_pred_|_i22.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/7_pred_|_i23.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/4_pred_|_i24.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/5_pred_|_i25.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/3/5_pred_|_i26.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/0_pred_|_i27.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/4_pred_|_i28.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/1/6_pred_|_i29.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/7_pred_|_i30.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/2_pred_|_i31.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/3/7_pred_|_i32.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/0_pred_|_i33.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/4_pred_|_i34.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/8_pred_|_i35.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/2_pred_|_i36.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/0_pred_|_i37.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/5_pred_|_i38.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/3_pred_|_i39.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/3/5_pred_|_i40.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/7/2_pred_|_i41.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/3_pred_|_i42.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/4_pred_|_i43.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/6_pred_|_i44.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/8_pred_|_i45.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/3/5_pred_|_i46.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/3_pred_|_i47.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/0_pred_|_i48.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/3_pred_|_i49.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/1_pred_|_i50.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/1/7_pred_|_i51.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/0/9_pred_|_i52.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/7/1_pred_|_i53.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/0/8_pred_|_i54.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/3_pred_|_i55.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/1_pred_|_i56.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/3_pred_|_i57.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/7_pred_|_i58.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/4_pred_|_i59.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/7_pred_|_i60.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/0/8_pred_|_i61.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/5_pred_|_i62.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/0_pred_|_i63.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/3/2_pred_|_i64.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/7_pred_|_i65.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/0_pred_|_i66.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/4_pred_|_i67.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/2/7_pred_|_i68.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/7_pred_|_i69.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/2/8_pred_|_i70.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/4_pred_|_i71.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/5_pred_|_i72.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/4_pred_|_i73.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/2/4_pred_|_i74.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/8_pred_|_i75.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/7_pred_|_i76.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/5_pred_|_i77.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/4/7_pred_|_i78.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/4_pred_|_i79.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/2/3_pred_|_i80.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/5_pred_|_i81.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/4_pred_|_i82.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/2_pred_|_i83.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/0_pred_|_i84.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/4_pred_|_i85.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/7/2_pred_|_i86.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/5_pred_|_i87.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/7_pred_|_i88.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/2/8_pred_|_i89.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/7_pred_|_i90.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/0/8_pred_|_i91.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/7/2_pred_|_i92.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/5_pred_|_i93.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/6_pred_|_i94.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/3_pred_|_i95.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/7_pred_|_i96.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/4/2_pred_|_i97.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/3/5_pred_|_i98.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/8_pred_|_i99.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/4_pred_|_i100.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/7/9_pred_|_i101.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/0/6_pred_|_i102.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/0_pred_|_i103.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/7/2_pred_|_i104.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/3_pred_|_i105.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/7/2_pred_|_i106.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/1/7_pred_|_i107.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/4_pred_|_i108.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/1/8_pred_|_i109.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/5_pred_|_i110.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/2/0_pred_|_i111.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/9_pred_|_i112.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/0/7_pred_|_i113.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/4_pred_|_i114.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/0/2_pred_|_i115.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/4/2_pred_|_i116.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/3/2_pred_|_i117.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/3_pred_|_i118.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/5/3_pred_|_i119.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/2/7_pred_|_i120.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/7/2_pred_|_i121.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/4/6_pred_|_i122.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/5_pred_|_i123.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/3/8_pred_|_i124.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/2/8_pred_|_i125.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/5_pred_|_i126.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/4_pred_|_i127.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/3_pred_|_i128.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/8/3_pred_|_i129.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/3_pred_|_i130.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/6/0_pred_|_i131.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/9/4_pred_|_i132.png
+Saving /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist/3/7_pred_|_i133.png
+Matrix:
+[[ 972    0    1    0    0    0    2    1    3    1]
+ [   0 1130    1    0    0    0    1    2    1    0]
+ [   1    0 1024    1    1    0    0    2    3    0]
+ [   0    0    2  999    0    4    0    3    2    0]
+ [   0    0    3    0  977    0    1    1    0    0]
+ [   2    0    0    7    0  880    1    1    1    0]
+ [   5    1    1    0    7    5  938    0    1    0]
+ [   0    2    8    0    0    0    0 1017    0    1]
+ [   3    0    3    5    1    3    1    4  953    1]
+ [   1    1    1    5   10    5    0    8    2  976]]
+Saving global picture /Users/nikita.kochetkov/Machine-Learning/labs/cnn/results/pictures/mnist.png

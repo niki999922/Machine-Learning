@@ -1,0 +1,8 @@
+Start
+2020-12-16 23:49:23.326508
+Learning rate: 0.1
+Batch size: 32
+Total epoch: 1
+Avg seconds spent on each epoch: 32 sec
+Until the end: 0 min, 31 sec
+accuracy on 1/1 epoch: 0.9571999907493591
