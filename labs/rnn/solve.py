@@ -11,8 +11,6 @@ import re
 import numpy as np
 import sys
 
-
-
 SEQUENCE_LENGTH = 40
 EPOCHS = 30
 BATCH_SIZE = 64
@@ -24,7 +22,8 @@ def clear_file(input):
     def isCorrectChar(c):
         return c.isspace() or c == '”' or c == '\'' or (c.isalpha() and (c not in allowed))
 
-    allowed = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'ê', 'ê', 'ê']
+    allowed = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
+               'v', 'w', 'x', 'y', 'z', 'ê', 'ê', 'ê']
     inputFile = os.path.join("results", f'{input}.txt')
     outputFile = os.path.join("results", f'___clear___{input}.txt')
 
@@ -42,6 +41,7 @@ def clear_file(input):
     open(outputFile, "w").write(text)
 
     return outputFile
+
 
 def init_data(file):
     raw_text = open(file).read()
@@ -64,6 +64,7 @@ def init_data(file):
 
     return x_arr_dataset, y_arr_dataset, x_arr_dataset_custom_tmp, int_chars_map
 
+
 def init_model(x_arr_dataset, y_arr_dataset):
     sgd = SGD(lr=0.1, decay=1e-6, momentum=0.9, nesterov=True)
 
@@ -73,6 +74,7 @@ def init_model(x_arr_dataset, y_arr_dataset):
     model.add(Dense(y_arr_dataset.shape[1], activation='softmax'))
     model.compile(loss='categorical_crossentropy', optimizer=sgd)
     return model
+
 
 def teach_model(file, teached_model_folder):
     print("Start teaching model", flush=True)
@@ -87,6 +89,7 @@ def teach_model(file, teached_model_folder):
 
     model.fit(x_arr_dataset, y_arr_dataset, epochs=EPOCHS, batch_size=BATCH_SIZE, callbacks=callbacks_list)
     print("End teaching model", flush=True)
+
 
 def generate_text_RNN(file, teached_model_file_path, amount_sequence=100):
     print(f'Start generating text under teached model on {teached_model_file_path}', flush=True)
@@ -113,6 +116,7 @@ def generate_text_RNN(file, teached_model_file_path, amount_sequence=100):
         start_sequence = start_sequence[1:len(start_sequence)]
     print(f'\nEnd generating text', flush=True)
 
+
 def do_mark(file, n, k, m):
     print(f'Start generating text for {file}', flush=True)
     text = open(file).read()
@@ -121,12 +125,14 @@ def do_mark(file, n, k, m):
     start_line = get_random_start(text)
     generating_by_graph(n, k, m, start_line, graph, w_to_int, int_to_w)
 
+
 def get_windows(text, n):
     windows = set()
     for i in range(len(text) - n + 1):
         windows.add(text[i:i + n])
     print(f'Windows: {len(windows)}', flush=True)
     return windows
+
 
 def get_graph(windows, text, n):
     window_to_int = dict((c, i) for i, c in enumerate(windows))
@@ -139,10 +145,12 @@ def get_graph(windows, text, n):
     matrix = np.array(norm_matrix(matrix))
     return matrix, window_to_int, int_to_wwindow
 
+
 def get_random_start(text):
     lines = text.split('\n')
     start = np.random.randint(0, len(lines) - 1)
     return lines[start]
+
 
 # K have to more M
 def generating_by_graph(n, k, m, start_line, matrix, w_to_int, int_to_w):
@@ -207,5 +215,3 @@ if __name__ == '__main__':
     generate_text_RNN(cleared_file, teached_model_file_path, amount_sequence=240)
 
     # do_mark(cleared_file, 4, 10, 200)
-
-
