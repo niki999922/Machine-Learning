@@ -129,4 +129,22 @@ Generating:
 тебя обнять крепче и переслать тебе бессчетно поцелуев но несмотря на то что мы может быть воеменет к как бы на него в со всемя совсем не выпесала в со всеми вотот но вот в то же время и всё постеринной
 End generating text
 
+Mark:
+
+WARNING: results/___clear___prestuplenie_i_nakazanie.txt is exist!!!
+Start generating text for results/___clear___prestuplenie_i_nakazanie.txt
+Windows: 35248
+Start phrase:
+впрочем на
+Generating:
+ не подумал он всего не подумал он всего не подумал он всего не подумал он всего не подумал он всего не подумал он всего не подумал он всего не подумал он всего не подумал он всего не подумал он всего
+End generating text
+
+Start generating text for results/___clear___prestuplenie_i_nakazanie.txt
+Windows: 35248
+Start phrase:
+у дворника не спросить ли
+Generating:
+гм черт спросить да ведь она ж никуда не ручку и он еще раз дернул за ручку замка черт нечего делать черт
+End generating text
 
