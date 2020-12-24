@@ -1,0 +1,26 @@
+Best result: Radion
+Epoch 30 -> loss: 1.8441
+Epoch 00029: loss improved from 1.86886 to 1.85820, saving model to results/radion/epoch_29__loss_1.8582.hdf5
+Epoch 30/30
+8751/8751 [==============================] - 285s 33ms/step - loss: 1.8441
+
+Others
+Best result: Petr
+Epoch 30 -> loss: 2.0247
+Epoch 00029: loss improved from 2.06948 to 2.05070, saving model to results/petr/epoch_29__loss_2.0507.hdf5
+Epoch 30/30
+2833/2833 [==============================] - 165s 58ms/step - loss: 2.0247
+
+
+Best result: Evgeny
+Epoch 30 -> loss: 2.4335
+Epoch 00029: loss improved from 2.48280 to 2.46191, saving model to results/evgeny/epoch_29__loss_2.4619.hdf5
+Epoch 30/30
+2062/2062 [==============================] - 191s 93ms/step - loss: 2.4335
+
+
+Dates:
+SEQUENCE_LENGTH = 40
+SGD(lr=0.1, decay=1e-6, momentum=0.9, nesterov=True)
+model.add(LSTM(256, input_shape=(X.shape[1], X.shape[2])))
+model.add(Dropout(0.2))
