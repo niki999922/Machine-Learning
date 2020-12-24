@@ -142,6 +142,21 @@ def inner_calinski_harabasz(x_features_with_norm, y_predicted, clusters):
     result = ((N - K) * top) / ((K - 1) * bottom)
     return result
 
+def outter_rand_metric(y_real, y_predicted):
+    tp, tn, fp, fn = 0, 0, 0, 0
+    for i in range(len(y_real)):
+        for j in range(i + 1, len(y_predicted)):
+            y_i_v, y_j_v = y_real[i] - 1, y_real[j] - 1
+            y_i_pv, y_j_pv = y_predicted[i], y_predicted[j]
+            if y_i_v == y_j_v and y_i_pv == y_j_pv:
+                tp += 1
+            elif y_i_v != y_j_v and y_i_pv == y_j_pv:
+                tn += 1
+            elif y_i_v == y_j_v and y_i_pv != y_j_pv:
+                fp += 1
+            elif y_i_v != y_j_v and y_i_pv != y_j_pv:
+                fn += 1
+    return (tp + fn) / (tp + tn + fp + fn)
 
 def paint_metric(clusters, metrics, title="title"):
     plt.figure(figsize=(14, 9))
@@ -168,10 +183,10 @@ def graph_cluster_score(x_features_with_norm, y_real, max_cluster_size=10):
         k_means_tmp.teach(x_features_with_norm)
         y_predicted_tmp = k_means_tmp.predict(x_features_with_norm)
         inner_metric_y_arr.append(inner_calinski_harabasz(x_features_with_norm, y_predicted_tmp, clusters=clusters))
-        external_metric_y_arr.append(adjusted_rand_score(y_real, y_predicted_tmp))
+        external_metric_y_arr.append(outter_rand_metric(y_real, y_predicted_tmp))
 
     paint_metric(x_arr, inner_metric_y_arr, "Calinski–Harabasz")
-    paint_metric(x_arr, external_metric_y_arr, "Adjusted rand score")
+    paint_metric(x_arr, external_metric_y_arr, "Random")
 
 
 if __name__ == '__main__':
