@@ -24,3 +24,109 @@ SEQUENCE_LENGTH = 40
 SGD(lr=0.1, decay=1e-6, momentum=0.9, nesterov=True)
 model.add(LSTM(256, input_shape=(X.shape[1], X.shape[2])))
 model.add(Dropout(0.2))
+
+
+
+For Mark:
+WARNING: results/___clear___evgeny_onegin.txt is exist!!!
+Start generating text for results/___clear___evgeny_onegin.txt
+Windows:  26901
+Start phrase:
+как зюзя п
+Generating:
+ьяны простой
+не послед
+деревнивый старины
+и записки простой
+не послед
+деревнивый старины
+и запиской не слышит голово снег почтенный полно послед
+дианы
+все в сад
+за не слышит голово снег и раздник стра
+End generating text
+
+_________
+
+For RNN:
+Start phrase:
+сем неожиданно скажите чтонибудь что в с
+Generating:
+о верроа и посом воеменет к как бы на него в со всемя совсем не выпесала в со всеми вотот но вот в то же время и всё пос
+End generating text
+Others:
+
+Start generating text under teached model on results/evgeny/epoch_30__loss_2.4439.hdf5
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Start phrase:
+ят зреют и падут
+другие им вослед идут
+т
+Generating:
+оооа сооое соооо сооое
+но но вое вед тем не сооое
+тоооа сооое соооо но оое
+и к кем не соооо сооана
+соооо но но но оо оо
+End generating text
+
+
+
+For Mark:
+WARNING: results/___clear___evgeny_onegin.txt is exist!!!
+Start generating text for results/___clear___evgeny_onegin.txt
+Windows:  26901
+Start phrase:
+как зюзя п
+Generating:
+ьяны простой
+не послед
+деревнивый старины
+и записки простой
+не послед
+деревнивый старины
+и запиской не слышит голово снег почтенный полно послед
+дианы
+все в сад
+за не слышит голово снег и раздник стра
+End generating text
+
+Other res
+Start phrase:
+и я в зако
+Generating:
+н себе вменяя
+страстей единый произвол
+с толпою чувства разделяя
+я музу резвую привел
+на шум пиры
+она несла свои дары
+и как вакханочка резвую привел
+на шум пиры
+она несла свои дары
+и как вакханочка ре
+End generating text
+
+
+
+Radion:
+
+RNN:
+Start phrase:
+зможна ведь только со стороны первого ра
+Generating:
+2020-12-24 13:09:07.087058: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+з в со всеми постеринном воемя посому что вы не вы домжно было на него в со всеми вототаноила и всё постеринное но вот в
+End generating text
+
+
+Other:
+
+Start phrase:
+ебя обнять крепче и переслать тебе бессчетно поцелуев но несмотря на то что мы м
+Generating:
+2020-12-24 13:12:16.057494: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+тебя обнять крепче и переслать тебе бессчетно поцелуев но несмотря на то что мы может быть воеменет к как бы на него в со всемя совсем не выпесала в со всеми вотот но вот в то же время и всё постеринной
+End generating text
+
+
