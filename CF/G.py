@@ -2,6 +2,7 @@ import math
 
 freeId = 1
 
+
 class Node:
     featureNumber = 0
     b = -100_000
@@ -19,7 +20,6 @@ class Node:
             else:
                 return self.rightChild.suggest(elem)
 
-
     # list of teach
     # hightOst of visota do 0
     def __init__(self, teach, hightOst, k):
@@ -29,7 +29,6 @@ class Node:
         self.k = k
         self.hightOst = hightOst
         self.buildNode(teach, hightOst)
-
 
     def initClassesMap(self, k):
         m = {}
@@ -54,29 +53,50 @@ class Node:
         bestFeature = 0
         bestB = 100_000
         bestScore = 100_000
-        leftListBEst = list()
-        rightListBEst = list()
+        leftListBEstInd = list()
+        rightListBEstInd = list()
         for featureI in range(len(teach[0][0])):
-            for teachEl in teach:
-                bTest = teachEl[0][featureI]
-                leftClassesMap = self.initClassesMap(self.k)
-                rightClassesMap = self.initClassesMap(self.k)
-                leftList = list()
-                rightList = list()
-                for teachElem in teach:
-                    if teachElem[0][featureI] < bTest:
-                        leftList.append(teachElem)
-                        leftClassesMap[teachElem[1]] += 1
-                    else:
-                        rightList.append(teachElem)
-                        rightClassesMap[teachElem[1]] += 1
+            hello = []
+            for i in range(len(teach)):
+                hello.append((teach[i][0][featureI], i))
+            hello = sorted(hello)
+            left_ind = 0
+            leftListInd = list()
+            rightListInd = list()
+            leftClassesMap = self.initClassesMap(self.k)
+            rightClassesMap = self.initClassesMap(self.k)
+            for el in hello:
+                rightListInd.append(el[1])
+                rightClassesMap[teach[el[1]][1]] += 1
+
+            score = self.evalEntrop(leftClassesMap) * sum(leftClassesMap.values()) + self.evalEntrop(rightClassesMap) * sum(rightClassesMap.values())
+            if bestScore > score:
+                bestScore = score
+                bestB = hello[left_ind][0]
+                bestFeature = featureI
+                leftListBEstInd = leftListInd.copy()
+                rightListBEstInd = rightListInd.copy()
+
+            while left_ind < len(hello):
+                znash = hello[left_ind][0]
+                while left_ind < len(hello) and znash == hello[left_ind][0]:
+                    leftClassesMap[teach[hello[left_ind][1]][1]] += 1
+                    rightClassesMap[teach[hello[left_ind][1]][1]] -= 1
+                    leftListInd.append(hello[left_ind][1])
+                    rightListInd.remove(hello[left_ind][1])
+                    left_ind += 1
+
+
                 score = self.evalEntrop(leftClassesMap) * sum(leftClassesMap.values()) + self.evalEntrop(rightClassesMap) * sum(rightClassesMap.values())
                 if bestScore > score:
                     bestScore = score
-                    bestB = bTest
+                    bestB = hello[left_ind][0]
                     bestFeature = featureI
-                    leftListBEst = leftList
-                    rightListBEst = rightList
+                    leftListBEstInd = leftListInd.copy()
+                    rightListBEstInd = rightListInd.copy()
+
+        leftListBEst = [teach[ind] for ind in leftListBEstInd]
+        rightListBEst = [teach[ind] for ind in rightListBEstInd]
         leftNode = Node(leftListBEst, hightOst - 1, self.k)
         rightNode = Node(rightListBEst, hightOst - 1, self.k)
         self.b = bestB
@@ -105,7 +125,6 @@ class Node:
             self.rightChild.printNode(listRes)
 
 
-
 class Tree:
     head = None
 
@@ -116,7 +135,7 @@ class Tree:
         self.head = Node(teach, maxH, k)
 
     def suggest(self, elem):
-        #for correctshift on 1 for 1,2,3 -> 0,1,2
+        # for correctshift on 1 for 1,2,3 -> 0,1,2
         return self.head.suggest(elem) + 1
 
     def printTree(self):
@@ -124,10 +143,10 @@ class Tree:
         self.head.printNode(listRes)
         listRes = sorted(listRes, key=lambda el: el[0])
 
-
-        print(freeId -1 )
+        print(freeId - 1)
         for el in listRes:
             print(el[1])
+
 
 if __name__ == '__main__':
     m, k, h = map(int, input().split(" "))
