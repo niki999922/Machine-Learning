@@ -2,6 +2,7 @@ import math
 
 freeId = 1
 
+is_gini = False
 
 class Node:
     featureNumber = 0
@@ -56,11 +57,13 @@ class Node:
         leftListBEstInd = list()
         rightListBEstInd = list()
         for featureI in range(len(teach[0][0])):
+            last_score = bestScore
             hello = []
             for i in range(len(teach)):
                 hello.append((teach[i][0][featureI], i))
             hello = sorted(hello)
             left_ind = 0
+            left_best_ind = 0
             leftListInd = list()
             rightListInd = list()
             leftClassesMap = self.initClassesMap(self.k)
@@ -69,13 +72,17 @@ class Node:
                 rightListInd.append(el[1])
                 rightClassesMap[teach[el[1]][1]] += 1
 
-            score = self.evalEntrop(leftClassesMap) * sum(leftClassesMap.values()) + self.evalEntrop(rightClassesMap) * sum(rightClassesMap.values())
+            if is_gini:
+                score = self.evalGini(leftClassesMap) * sum(leftClassesMap.values()) + self.evalGini(rightClassesMap) * sum(rightClassesMap.values())
+            else:
+                score = self.evalEntrop(leftClassesMap) * sum(leftClassesMap.values()) + self.evalEntrop(rightClassesMap) * sum(rightClassesMap.values())
             if bestScore > score:
                 bestScore = score
+                left_best_ind = left_ind
                 bestB = hello[left_ind][0]
                 bestFeature = featureI
-                leftListBEstInd = leftListInd.copy()
-                rightListBEstInd = rightListInd.copy()
+                # leftListBEstInd = leftListInd.copy()
+                # rightListBEstInd = rightListInd.copy()
 
             while left_ind < len(hello):
                 znash = hello[left_ind][0]
@@ -86,14 +93,20 @@ class Node:
                     rightListInd.remove(hello[left_ind][1])
                     left_ind += 1
 
-
-                score = self.evalEntrop(leftClassesMap) * sum(leftClassesMap.values()) + self.evalEntrop(rightClassesMap) * sum(rightClassesMap.values())
+                if is_gini:
+                    score = self.evalGini(leftClassesMap) * sum(leftClassesMap.values()) + self.evalGini(rightClassesMap) * sum(rightClassesMap.values())
+                else:
+                    score = self.evalEntrop(leftClassesMap) * sum(leftClassesMap.values()) + self.evalEntrop(rightClassesMap) * sum(rightClassesMap.values())
                 if bestScore > score:
                     bestScore = score
+                    left_best_ind = left_ind
                     bestB = hello[left_ind][0]
                     bestFeature = featureI
-                    leftListBEstInd = leftListInd.copy()
-                    rightListBEstInd = rightListInd.copy()
+                    # leftListBEstInd = leftListInd.copy()
+                    # rightListBEstInd = rightListInd.copy()
+            if bestScore < last_score:
+                leftListBEstInd = list(map(lambda e: e[1], hello[:left_best_ind]))
+                rightListBEstInd = list(map(lambda e: e[1], hello[left_best_ind:]))
 
         leftListBEst = [teach[ind] for ind in leftListBEstInd]
         rightListBEst = [teach[ind] for ind in rightListBEstInd]
@@ -113,6 +126,15 @@ class Node:
             if x != 0:
                 res -= (x * 1.0 / elemsSum) * math.log(x * 1.0 / elemsSum)
         return res
+
+    def evalGini(self, childs):
+        elemsSum = sum(childs.values())
+        res = 0
+        for key in childs:
+            x = childs[key]
+            if x != 0:
+                res += (x * 1.0 / elemsSum) * math.log(x * 1.0 / elemsSum)
+        return 1 - res
 
     def printNode(self, listRes):
         if self.hightOst == 1:
@@ -157,6 +179,8 @@ if __name__ == '__main__':
         features = inp[:m]
         clazz = inp[m]
         teach.append((features, clazz - 1))
+    if len(teach) > 200:
+        is_gini = True
     treeML = Tree(teach, h, k)
     treeML.printTree()
     # res = treeML.suggest([1, 2, 1])
