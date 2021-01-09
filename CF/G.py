@@ -43,8 +43,6 @@ class Node:
         bestFeature = 0
         bestB = 100_000
         bestScore = 100_000
-        leftListBEstInd = list()
-        rightListBEstInd = list()
 
         all_indexes = self.initClassesMap(self.k)
         for i in range(len(teach)):
@@ -53,13 +51,11 @@ class Node:
         left_best_ind = 0
 
         for featureI in range(len(teach[0][0])):
-            last_score = bestScore
             hello = []
             for i in range(len(teach)):
                 hello.append((teach[i][0][featureI], i))
             hello = sorted(hello)
             left_ind = 0
-            # left_best_ind = 0
             leftClassesMap = self.initClassesMap(self.k)
             left_classes_count_con = 0
             right_classes_count_con = len(hello)
@@ -91,20 +87,14 @@ class Node:
                     left_best_ind = left_ind
                     bestB = hello[left_ind][0]
                     bestFeature = featureI
-            if bestScore < last_score:
-                leftListBEstInd = list(map(lambda e: e[1], hello[:left_best_ind]))
-                rightListBEstInd = list(map(lambda e: e[1], hello[left_best_ind:]))
 
-        # hello = []
-        # for i in range(len(teach)):
-        #     hello.append((teach[i][0][bestFeature], i))
-        # hello = sorted(hello)
-        # leftListBEstInd = list(map(lambda e: e[1], hello[:left_best_ind]))
-        # rightListBEstInd = list(map(lambda e: e[1], hello[left_best_ind:]))
+        hello = []
+        for i in range(len(teach)):
+            hello.append((teach[i][0][bestFeature], i))
+        hello = sorted(hello)
+        leftListBEst = list(map(lambda e: teach[e[1]], hello[:left_best_ind]))
+        rightListBEst = list(map(lambda e: teach[e[1]], hello[left_best_ind:]))
 
-
-        leftListBEst = [teach[ind] for ind in leftListBEstInd]
-        rightListBEst = [teach[ind] for ind in rightListBEstInd]
         leftNode = Node(leftListBEst, hightOst - 1, self.k)
         rightNode = Node(rightListBEst, hightOst - 1, self.k)
         self.b = bestB
