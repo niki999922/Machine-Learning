@@ -53,14 +53,11 @@ class Node:
             hello = sorted(hello)
             left_ind = 0
             left_best_ind = 0
-            leftListInd = list()
-            rightListInd = list()
             leftClassesMap = self.initClassesMap(self.k)
             rightClassesMap = self.initClassesMap(self.k)
             left_classes_count_con = 0
             right_classes_count_con = 0
             for el in hello:
-                rightListInd.append(el[1])
                 rightClassesMap[teach[el[1]][1]] += 1
                 right_classes_count_con += 1
 
@@ -81,8 +78,6 @@ class Node:
                     right_classes_count_con -= 1
                     leftClassesMap[teach[hello[left_ind][1]][1]] += 1
                     rightClassesMap[teach[hello[left_ind][1]][1]] -= 1
-                    leftListInd.append(hello[left_ind][1])
-                    rightListInd.remove(hello[left_ind][1])
                     left_ind += 1
 
                 if is_gini:
@@ -97,6 +92,7 @@ class Node:
             if bestScore < last_score:
                 leftListBEstInd = list(map(lambda e: e[1], hello[:left_best_ind]))
                 rightListBEstInd = list(map(lambda e: e[1], hello[left_best_ind:]))
+
 
         leftListBEst = [teach[ind] for ind in leftListBEstInd]
         rightListBEst = [teach[ind] for ind in rightListBEstInd]
