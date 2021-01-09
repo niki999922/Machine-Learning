@@ -12,14 +12,6 @@ class Node:
     leftChild = None
     rightChild = None
 
-    def suggest(self, elem):
-        if self.hightOst == 1:
-            return self.classAns
-        else:
-            if elem[self.featureNumber] < self.b:
-                return self.leftChild.suggest(elem)
-            else:
-                return self.rightChild.suggest(elem)
 
     # list of teach
     # hightOst of visota do 0
@@ -32,10 +24,7 @@ class Node:
         self.buildNode(teach, hightOst)
 
     def initClassesMap(self, k):
-        m = {}
-        for i in range(k):
-            m[i] = 0
-        return m
+        return {i: 0 for i in range(k)}
 
     def findMaxClassByChastota(self, teach):
         tmp = self.initClassesMap(self.k)
@@ -68,25 +57,28 @@ class Node:
             rightListInd = list()
             leftClassesMap = self.initClassesMap(self.k)
             rightClassesMap = self.initClassesMap(self.k)
+            left_classes_count_con = 0
+            right_classes_count_con = 0
             for el in hello:
                 rightListInd.append(el[1])
                 rightClassesMap[teach[el[1]][1]] += 1
+                right_classes_count_con += 1
 
             if is_gini:
-                score = self.evalGini(leftClassesMap) * sum(leftClassesMap.values()) + self.evalGini(rightClassesMap) * sum(rightClassesMap.values())
+                score = self.evalGini(leftClassesMap, left_classes_count_con) * left_classes_count_con + self.evalGini(rightClassesMap, right_classes_count_con) * right_classes_count_con
             else:
-                score = self.evalEntrop(leftClassesMap) * sum(leftClassesMap.values()) + self.evalEntrop(rightClassesMap) * sum(rightClassesMap.values())
+                score = self.evalEntrop(leftClassesMap, left_classes_count_con) * left_classes_count_con + self.evalEntrop(rightClassesMap, right_classes_count_con) * right_classes_count_con
             if bestScore > score:
                 bestScore = score
                 left_best_ind = left_ind
                 bestB = hello[left_ind][0]
                 bestFeature = featureI
-                # leftListBEstInd = leftListInd.copy()
-                # rightListBEstInd = rightListInd.copy()
 
             while left_ind < len(hello):
                 znash = hello[left_ind][0]
                 while left_ind < len(hello) and znash == hello[left_ind][0]:
+                    left_classes_count_con += 1
+                    right_classes_count_con -= 1
                     leftClassesMap[teach[hello[left_ind][1]][1]] += 1
                     rightClassesMap[teach[hello[left_ind][1]][1]] -= 1
                     leftListInd.append(hello[left_ind][1])
@@ -94,16 +86,14 @@ class Node:
                     left_ind += 1
 
                 if is_gini:
-                    score = self.evalGini(leftClassesMap) * sum(leftClassesMap.values()) + self.evalGini(rightClassesMap) * sum(rightClassesMap.values())
+                    score = self.evalGini(leftClassesMap, left_classes_count_con) * left_classes_count_con + self.evalGini(rightClassesMap, right_classes_count_con) * right_classes_count_con
                 else:
-                    score = self.evalEntrop(leftClassesMap) * sum(leftClassesMap.values()) + self.evalEntrop(rightClassesMap) * sum(rightClassesMap.values())
+                    score = self.evalEntrop(leftClassesMap, left_classes_count_con) * left_classes_count_con + self.evalEntrop(rightClassesMap, right_classes_count_con) * right_classes_count_con
                 if bestScore > score:
                     bestScore = score
                     left_best_ind = left_ind
                     bestB = hello[left_ind][0]
                     bestFeature = featureI
-                    # leftListBEstInd = leftListInd.copy()
-                    # rightListBEstInd = rightListInd.copy()
             if bestScore < last_score:
                 leftListBEstInd = list(map(lambda e: e[1], hello[:left_best_ind]))
                 rightListBEstInd = list(map(lambda e: e[1], hello[left_best_ind:]))
@@ -118,22 +108,22 @@ class Node:
         self.rightChild = rightNode
 
     # list size of k different classes and count objects
-    def evalEntrop(self, childs):
-        elemsSum = sum(childs.values())
+    def evalEntrop(self, childs, elemsSum):
         res = 0
         for key in childs:
             x = childs[key]
             if x != 0:
-                res -= (x * 1.0 / elemsSum) * math.log(x * 1.0 / elemsSum)
+                p = x * 1.0 / elemsSum
+                res -= p * math.log(p)
         return res
 
-    def evalGini(self, childs):
-        elemsSum = sum(childs.values())
+    def evalGini(self, childs, elemsSum):
         res = 0
         for key in childs:
             x = childs[key]
             if x != 0:
-                res += (x * 1.0 / elemsSum) * math.log(x * 1.0 / elemsSum)
+                p = x * 1.0 / elemsSum
+                res += p ** 2
         return 1 - res
 
     def printNode(self, listRes):
@@ -155,10 +145,6 @@ class Tree:
 
     def buildTree(self, teach, maxH, k):
         self.head = Node(teach, maxH, k)
-
-    def suggest(self, elem):
-        # for correctshift on 1 for 1,2,3 -> 0,1,2
-        return self.head.suggest(elem) + 1
 
     def printTree(self):
         listRes = list()
@@ -183,7 +169,6 @@ if __name__ == '__main__':
         is_gini = True
     treeML = Tree(teach, h, k)
     treeML.printTree()
-    # res = treeML.suggest([1, 2, 1])
 
     # print(teach)
 
