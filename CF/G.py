@@ -45,6 +45,13 @@ class Node:
         bestScore = 100_000
         leftListBEstInd = list()
         rightListBEstInd = list()
+
+        all_indexes = self.initClassesMap(self.k)
+        for i in range(len(teach)):
+            all_indexes[teach[i][1]] += 1
+
+        left_best_ind = 0
+
         for featureI in range(len(teach[0][0])):
             last_score = bestScore
             hello = []
@@ -52,19 +59,15 @@ class Node:
                 hello.append((teach[i][0][featureI], i))
             hello = sorted(hello)
             left_ind = 0
-            left_best_ind = 0
+            # left_best_ind = 0
             leftClassesMap = self.initClassesMap(self.k)
-            rightClassesMap = self.initClassesMap(self.k)
             left_classes_count_con = 0
-            right_classes_count_con = 0
-            for el in hello:
-                rightClassesMap[teach[el[1]][1]] += 1
-                right_classes_count_con += 1
+            right_classes_count_con = len(hello)
 
             if is_gini:
-                score = self.evalGini(leftClassesMap, left_classes_count_con) * left_classes_count_con + self.evalGini(rightClassesMap, right_classes_count_con) * right_classes_count_con
+                score = self.evalGini(leftClassesMap, left_classes_count_con, all_indexes, is_left=True) * left_classes_count_con + self.evalGini(leftClassesMap, right_classes_count_con, all_indexes, is_left=False) * right_classes_count_con
             else:
-                score = self.evalEntrop(leftClassesMap, left_classes_count_con) * left_classes_count_con + self.evalEntrop(rightClassesMap, right_classes_count_con) * right_classes_count_con
+                score = self.evalEntrop(leftClassesMap, left_classes_count_con, all_indexes, is_left=True) * left_classes_count_con + self.evalEntrop(leftClassesMap, right_classes_count_con, all_indexes, is_left=False) * right_classes_count_con
             if bestScore > score:
                 bestScore = score
                 left_best_ind = left_ind
@@ -77,13 +80,12 @@ class Node:
                     left_classes_count_con += 1
                     right_classes_count_con -= 1
                     leftClassesMap[teach[hello[left_ind][1]][1]] += 1
-                    rightClassesMap[teach[hello[left_ind][1]][1]] -= 1
                     left_ind += 1
 
                 if is_gini:
-                    score = self.evalGini(leftClassesMap, left_classes_count_con) * left_classes_count_con + self.evalGini(rightClassesMap, right_classes_count_con) * right_classes_count_con
+                    score = self.evalGini(leftClassesMap, left_classes_count_con, all_indexes, is_left=True) * left_classes_count_con + self.evalGini(leftClassesMap, right_classes_count_con, all_indexes, is_left=False) * right_classes_count_con
                 else:
-                    score = self.evalEntrop(leftClassesMap, left_classes_count_con) * left_classes_count_con + self.evalEntrop(rightClassesMap, right_classes_count_con) * right_classes_count_con
+                    score = self.evalEntrop(leftClassesMap, left_classes_count_con, all_indexes, is_left=True) * left_classes_count_con + self.evalEntrop(leftClassesMap, right_classes_count_con, all_indexes, is_left=False) * right_classes_count_con
                 if bestScore > score:
                     bestScore = score
                     left_best_ind = left_ind
@@ -92,6 +94,13 @@ class Node:
             if bestScore < last_score:
                 leftListBEstInd = list(map(lambda e: e[1], hello[:left_best_ind]))
                 rightListBEstInd = list(map(lambda e: e[1], hello[left_best_ind:]))
+
+        # hello = []
+        # for i in range(len(teach)):
+        #     hello.append((teach[i][0][bestFeature], i))
+        # hello = sorted(hello)
+        # leftListBEstInd = list(map(lambda e: e[1], hello[:left_best_ind]))
+        # rightListBEstInd = list(map(lambda e: e[1], hello[left_best_ind:]))
 
 
         leftListBEst = [teach[ind] for ind in leftListBEstInd]
@@ -104,19 +113,25 @@ class Node:
         self.rightChild = rightNode
 
     # list size of k different classes and count objects
-    def evalEntrop(self, childs, elemsSum):
+    def evalEntrop(self, childs, elemsSum, all_indexes, is_left):
         res = 0
         for key in childs:
-            x = childs[key]
+            if is_left:
+                x = childs[key]
+            else:
+                x = all_indexes[key] - childs[key]
             if x != 0:
                 p = x * 1.0 / elemsSum
                 res -= p * math.log(p)
         return res
 
-    def evalGini(self, childs, elemsSum):
+    def evalGini(self, childs, elemsSum, all_indexes, is_left):
         res = 0
         for key in childs:
-            x = childs[key]
+            if is_left:
+                x = childs[key]
+            else:
+                x = all_indexes[key] - childs[key]
             if x != 0:
                 p = x * 1.0 / elemsSum
                 res += p ** 2
