@@ -8,6 +8,7 @@ class Node:
     featureNumber = 0
     b = -100_000
     classAns = -1
+    is_c = False
 
     leftChild = None
     rightChild = None
@@ -60,15 +61,6 @@ class Node:
             left_classes_count_con = 0
             right_classes_count_con = len(hello)
 
-            if is_gini:
-                score = self.evalGini(leftClassesMap, left_classes_count_con, all_indexes, is_left=True) * left_classes_count_con + self.evalGini(leftClassesMap, right_classes_count_con, all_indexes, is_left=False) * right_classes_count_con
-            else:
-                score = self.evalEntrop(leftClassesMap, left_classes_count_con, all_indexes, is_left=True) * left_classes_count_con + self.evalEntrop(leftClassesMap, right_classes_count_con, all_indexes, is_left=False) * right_classes_count_con
-            if bestScore > score:
-                bestScore = score
-                left_best_ind = left_ind
-                bestB = hello[left_ind][0]
-                bestFeature = featureI
 
             while left_ind < len(hello):
                 znash = hello[left_ind][0]
@@ -82,6 +74,7 @@ class Node:
                     score = self.evalGini(leftClassesMap, left_classes_count_con, all_indexes, is_left=True) * left_classes_count_con + self.evalGini(leftClassesMap, right_classes_count_con, all_indexes, is_left=False) * right_classes_count_con
                 else:
                     score = self.evalEntrop(leftClassesMap, left_classes_count_con, all_indexes, is_left=True) * left_classes_count_con + self.evalEntrop(leftClassesMap, right_classes_count_con, all_indexes, is_left=False) * right_classes_count_con
+                # print(f'{score} {featureI}')
                 if bestScore > score:
                     bestScore = score
                     left_best_ind = left_ind
@@ -92,9 +85,16 @@ class Node:
         for i in range(len(teach)):
             hello.append((teach[i][0][bestFeature], i))
         hello = sorted(hello)
+        print(f'bf {bestFeature}')
+
         leftListBEst = list(map(lambda e: teach[e[1]], hello[:left_best_ind]))
         rightListBEst = list(map(lambda e: teach[e[1]], hello[left_best_ind:]))
 
+        if len(leftListBEst) == 0 or len(rightListBEst) == 0:
+            self.is_c = True
+            return
+        # print(f'l {len(leftListBEst)}')
+        # print(f'r {len(rightListBEst)}')
         leftNode = Node(leftListBEst, hightOst - 1, self.k)
         rightNode = Node(rightListBEst, hightOst - 1, self.k)
         self.b = bestB
@@ -128,11 +128,9 @@ class Node:
         return 1 - res
 
     def printNode(self, listRes):
-        if self.hightOst == 1:
-            # listRes.append((self.id, f'C {self.classAns + 1}'))
+        if self.hightOst == 1 or self.is_c == True:
             listRes.append((self.id, f'C {self.classAns + 1}'))
         else:
-            # listRes.append((self.id, f'Q {self.id} {self.b} {self.leftChild.id} {self.rightChild.id}'))
             listRes.append((self.id, f'Q {self.featureNumber + 1} {self.b} {self.leftChild.id} {self.rightChild.id}'))
             self.leftChild.printNode(listRes)
             self.rightChild.printNode(listRes)
